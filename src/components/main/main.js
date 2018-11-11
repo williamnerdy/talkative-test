@@ -6,11 +6,11 @@ import Card from '../card';
 
 const Main = () => (
   <Container>
-    <Row>
-      <Col>Main left</Col>
+    <Row reverse>
       <Col>
         <Card>Card content...</Card>
       </Col>
+      <Col>Main left</Col>
     </Row>
   </Container>
 );

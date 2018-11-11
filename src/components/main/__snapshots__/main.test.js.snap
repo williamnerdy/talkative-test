@@ -17,18 +17,20 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": <Row>
-        <Col
-          size={12}
-        >
-          Main left
-        </Col>
+      "children": <Row
+        reverse={true}
+      >
         <Col
           size={12}
         >
           <Card>
             Card content...
           </Card>
+        </Col>
+        <Col
+          size={12}
+        >
+          Main left
         </Col>
       </Row>,
     },
@@ -42,31 +44,20 @@ ShallowWrapper {
           <Col
             size={12}
           >
-            Main left
-          </Col>,
-          <Col
-            size={12}
-          >
             <Card>
               Card content...
             </Card>
           </Col>,
+          <Col
+            size={12}
+          >
+            Main left
+          </Col>,
         ],
+        "reverse": true,
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {
-            "children": "Main left",
-            "size": 12,
-          },
-          "ref": null,
-          "rendered": "Main left",
-          "type": [Function],
-        },
         Object {
           "instance": null,
           "key": undefined,
@@ -91,6 +82,18 @@ ShallowWrapper {
           },
           "type": [Function],
         },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Main left",
+            "size": 12,
+          },
+          "ref": null,
+          "rendered": "Main left",
+          "type": [Function],
+        },
       ],
       "type": [Function],
     },
@@ -102,18 +105,20 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": <Row>
-          <Col
-            size={12}
-          >
-            Main left
-          </Col>
+        "children": <Row
+          reverse={true}
+        >
           <Col
             size={12}
           >
             <Card>
               Card content...
             </Card>
+          </Col>
+          <Col
+            size={12}
+          >
+            Main left
           </Col>
         </Row>,
       },
@@ -127,31 +132,20 @@ ShallowWrapper {
             <Col
               size={12}
             >
-              Main left
-            </Col>,
-            <Col
-              size={12}
-            >
               <Card>
                 Card content...
               </Card>
             </Col>,
+            <Col
+              size={12}
+            >
+              Main left
+            </Col>,
           ],
+          "reverse": true,
         },
         "ref": null,
         "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "function",
-            "props": Object {
-              "children": "Main left",
-              "size": 12,
-            },
-            "ref": null,
-            "rendered": "Main left",
-            "type": [Function],
-          },
           Object {
             "instance": null,
             "key": undefined,
@@ -174,6 +168,18 @@ ShallowWrapper {
               "rendered": "Card content...",
               "type": [Function],
             },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Main left",
+              "size": 12,
+            },
+            "ref": null,
+            "rendered": "Main left",
             "type": [Function],
           },
         ],

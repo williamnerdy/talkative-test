@@ -3,7 +3,9 @@
 exports[`<Row /> should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Row />,
+  Symbol(enzyme.__unrendered__): <Row
+    reverse={false}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -61,7 +63,9 @@ ShallowWrapper {
 exports[`<Row /> should render with children 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Row>
+  Symbol(enzyme.__unrendered__): <Row
+    reverse={false}
+  >
     Test
   </Row>,
   Symbol(enzyme.__renderer__): Object {
@@ -121,7 +125,9 @@ ShallowWrapper {
 exports[`<Row /> should render with multiple children 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Row>
+  Symbol(enzyme.__unrendered__): <Row
+    reverse={false}
+  >
     <div>
       Test
     </div>

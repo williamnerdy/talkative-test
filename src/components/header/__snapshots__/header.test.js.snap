@@ -18,7 +18,9 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <Container>
-        <Row>
+        <Row
+          reverse={false}
+        >
           <Col
             size={6}
           >
@@ -36,7 +38,9 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": <Row>
+        "children": <Row
+          reverse={false}
+        >
           <Col
             size={6}
           >
@@ -59,6 +63,7 @@ ShallowWrapper {
               Sua voz será ouvida e recompensada
             </HeaderMessage>
           </Col>,
+          "reverse": false,
         },
         "ref": null,
         "rendered": Object {
@@ -98,7 +103,9 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <Container>
-          <Row>
+          <Row
+            reverse={false}
+          >
             <Col
               size={6}
             >
@@ -116,7 +123,9 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": <Row>
+          "children": <Row
+            reverse={false}
+          >
             <Col
               size={6}
             >
@@ -139,6 +148,7 @@ ShallowWrapper {
                 Sua voz será ouvida e recompensada
               </HeaderMessage>
             </Col>,
+            "reverse": false,
           },
           "ref": null,
           "rendered": Object {
