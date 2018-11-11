@@ -26,7 +26,9 @@ ShallowWrapper {
         <Col
           size={12}
         >
-          Main right
+          <Card>
+            Card content...
+          </Card>
         </Col>
       </Row>,
     },
@@ -45,7 +47,9 @@ ShallowWrapper {
           <Col
             size={12}
           >
-            Main right
+            <Card>
+              Card content...
+            </Card>
           </Col>,
         ],
       },
@@ -68,11 +72,23 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": "Main right",
+            "children": <Card>
+              Card content...
+            </Card>,
             "size": 12,
           },
           "ref": null,
-          "rendered": "Main right",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Card content...",
+            },
+            "ref": null,
+            "rendered": "Card content...",
+            "type": [Function],
+          },
           "type": [Function],
         },
       ],
@@ -95,7 +111,9 @@ ShallowWrapper {
           <Col
             size={12}
           >
-            Main right
+            <Card>
+              Card content...
+            </Card>
           </Col>
         </Row>,
       },
@@ -114,7 +132,9 @@ ShallowWrapper {
             <Col
               size={12}
             >
-              Main right
+              <Card>
+                Card content...
+              </Card>
             </Col>,
           ],
         },
@@ -137,11 +157,23 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": "Main right",
+              "children": <Card>
+                Card content...
+              </Card>,
               "size": 12,
             },
             "ref": null,
-            "rendered": "Main right",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Card content...",
+              },
+              "ref": null,
+              "rendered": "Card content...",
+              "type": [Function],
+            },
             "type": [Function],
           },
         ],
