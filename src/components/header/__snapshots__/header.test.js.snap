@@ -18,9 +18,11 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": <Container>
-        <HeaderMessage>
-          Hello World!
-        </HeaderMessage>
+        <Row>
+          <HeaderMessage>
+            Sua voz será ouvida e recompensada
+          </HeaderMessage>
+        </Row>
       </Container>,
       "className": "header",
     },
@@ -30,9 +32,11 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": <HeaderMessage>
-          Hello World!
-        </HeaderMessage>,
+        "children": <Row>
+          <HeaderMessage>
+            Sua voz será ouvida e recompensada
+          </HeaderMessage>
+        </Row>,
       },
       "ref": null,
       "rendered": Object {
@@ -40,10 +44,22 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": "Hello World!",
+          "children": <HeaderMessage>
+            Sua voz será ouvida e recompensada
+          </HeaderMessage>,
         },
         "ref": null,
-        "rendered": "Hello World!",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Sua voz será ouvida e recompensada",
+          },
+          "ref": null,
+          "rendered": "Sua voz será ouvida e recompensada",
+          "type": [Function],
+        },
         "type": [Function],
       },
       "type": [Function],
@@ -57,9 +73,11 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <Container>
-          <HeaderMessage>
-            Hello World!
-          </HeaderMessage>
+          <Row>
+            <HeaderMessage>
+              Sua voz será ouvida e recompensada
+            </HeaderMessage>
+          </Row>
         </Container>,
         "className": "header",
       },
@@ -69,9 +87,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": <HeaderMessage>
-            Hello World!
-          </HeaderMessage>,
+          "children": <Row>
+            <HeaderMessage>
+              Sua voz será ouvida e recompensada
+            </HeaderMessage>
+          </Row>,
         },
         "ref": null,
         "rendered": Object {
@@ -79,10 +99,22 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": "Hello World!",
+            "children": <HeaderMessage>
+              Sua voz será ouvida e recompensada
+            </HeaderMessage>,
           },
           "ref": null,
-          "rendered": "Hello World!",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Sua voz será ouvida e recompensada",
+            },
+            "ref": null,
+            "rendered": "Sua voz será ouvida e recompensada",
+            "type": [Function],
+          },
           "type": [Function],
         },
         "type": [Function],

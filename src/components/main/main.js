@@ -1,9 +1,12 @@
 import React from 'react';
 import Container from '../container';
+import Row from '../row';
 
 const Main = () => (
   <Container>
-    <h1>Main Component</h1>;
+    <Row>
+      <h1>Main Component</h1>;
+    </Row>
   </Container>
 );
 
