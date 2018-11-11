@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<App /> should render correctly 1`] = `
+exports[`<Main /> should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__unrendered__): <Main />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -18,8 +18,10 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "children": Array [
-        <Header />,
-        <Main />,
+        <h1>
+          Main Component
+        </h1>,
+        ";",
       ],
     },
     "ref": null,
@@ -27,23 +29,17 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
+        "nodeType": "host",
+        "props": Object {
+          "children": "Main Component",
+        },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": "Main Component",
+        "type": "h1",
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
+      ";",
     ],
-    "type": Symbol(react.fragment),
+    "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -52,8 +48,10 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
-          <Header />,
-          <Main />,
+          <h1>
+            Main Component
+          </h1>,
+          ";",
         ],
       },
       "ref": null,
@@ -61,23 +59,17 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
+          "nodeType": "host",
+          "props": Object {
+            "children": "Main Component",
+          },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": "Main Component",
+          "type": "h1",
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+        ";",
       ],
-      "type": Symbol(react.fragment),
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {
