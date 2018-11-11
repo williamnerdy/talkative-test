@@ -9,3 +9,12 @@
   background: -webkit-linear-gradient(left, #00bc9b 0%, #1696e1 100%);
   background: linear-gradient(to right, #00bc9b 0%, #1696e1 100%);
 }
+
+@media (max-width: 799px) {
+  .header {
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+  }
+}
