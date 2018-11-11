@@ -36,6 +36,7 @@ ShallowWrapper {
           </Col>
         </Row>
       </Container>,
+      "className": "footer",
     },
     "ref": null,
     "rendered": Object {
@@ -155,6 +156,7 @@ ShallowWrapper {
             </Col>
           </Row>
         </Container>,
+        "className": "footer",
       },
       "ref": null,
       "rendered": Object {

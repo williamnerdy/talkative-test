@@ -2,9 +2,10 @@ import React from 'react';
 import Container from '../container';
 import Row from '../row';
 import Col from '../col';
+import './style.css';
 
 const Footer = () => (
-  <footer>
+  <footer className="footer">
     <Container>
       <Row>
         <Col size={4}>Footer left</Col>
