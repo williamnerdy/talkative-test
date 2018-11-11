@@ -1,11 +1,13 @@
 import React from 'react';
 import Container from '../container';
 import Row from '../row';
+import Col from '../col';
 
 const Main = () => (
   <Container>
     <Row>
-      <h1>Main Component</h1>;
+      <Col>Main left</Col>
+      <Col>Main right</Col>
     </Row>
   </Container>
 );

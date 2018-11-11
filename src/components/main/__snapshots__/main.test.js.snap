@@ -18,10 +18,16 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "children": <Row>
-        <h1>
-          Main Component
-        </h1>
-        ;
+        <Col
+          size={12}
+        >
+          Main left
+        </Col>
+        <Col
+          size={12}
+        >
+          Main right
+        </Col>
       </Row>,
     },
     "ref": null,
@@ -31,10 +37,16 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
-          <h1>
-            Main Component
-          </h1>,
-          ";",
+          <Col
+            size={12}
+          >
+            Main left
+          </Col>,
+          <Col
+            size={12}
+          >
+            Main right
+          </Col>,
         ],
       },
       "ref": null,
@@ -42,15 +54,27 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "function",
           "props": Object {
-            "children": "Main Component",
+            "children": "Main left",
+            "size": 12,
           },
           "ref": null,
-          "rendered": "Main Component",
-          "type": "h1",
+          "rendered": "Main left",
+          "type": [Function],
         },
-        ";",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Main right",
+            "size": 12,
+          },
+          "ref": null,
+          "rendered": "Main right",
+          "type": [Function],
+        },
       ],
       "type": [Function],
     },
@@ -63,10 +87,16 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": <Row>
-          <h1>
-            Main Component
-          </h1>
-          ;
+          <Col
+            size={12}
+          >
+            Main left
+          </Col>
+          <Col
+            size={12}
+          >
+            Main right
+          </Col>
         </Row>,
       },
       "ref": null,
@@ -76,10 +106,16 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": Array [
-            <h1>
-              Main Component
-            </h1>,
-            ";",
+            <Col
+              size={12}
+            >
+              Main left
+            </Col>,
+            <Col
+              size={12}
+            >
+              Main right
+            </Col>,
           ],
         },
         "ref": null,
@@ -87,15 +123,27 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
-              "children": "Main Component",
+              "children": "Main left",
+              "size": 12,
             },
             "ref": null,
-            "rendered": "Main Component",
-            "type": "h1",
+            "rendered": "Main left",
+            "type": [Function],
           },
-          ";",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Main right",
+              "size": 12,
+            },
+            "ref": null,
+            "rendered": "Main right",
+            "type": [Function],
+          },
         ],
         "type": [Function],
       },

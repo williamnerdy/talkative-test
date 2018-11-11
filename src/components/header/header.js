@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from '../container';
 import Row from '../row';
+import Col from '../col';
 import ReaderMessage from '../header-message';
 import './style.css';
 
@@ -8,7 +9,9 @@ const Header = () => (
   <header className="header">
     <Container>
       <Row>
-        <ReaderMessage>Sua voz será ouvida e recompensada</ReaderMessage>
+        <Col size={6}>
+          <ReaderMessage>Sua voz será ouvida e recompensada</ReaderMessage>
+        </Col>
       </Row>
     </Container>
   </header>

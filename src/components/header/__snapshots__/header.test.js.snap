@@ -19,9 +19,13 @@ ShallowWrapper {
     "props": Object {
       "children": <Container>
         <Row>
-          <HeaderMessage>
-            Sua voz será ouvida e recompensada
-          </HeaderMessage>
+          <Col
+            size={6}
+          >
+            <HeaderMessage>
+              Sua voz será ouvida e recompensada
+            </HeaderMessage>
+          </Col>
         </Row>
       </Container>,
       "className": "header",
@@ -33,9 +37,13 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": <Row>
-          <HeaderMessage>
-            Sua voz será ouvida e recompensada
-          </HeaderMessage>
+          <Col
+            size={6}
+          >
+            <HeaderMessage>
+              Sua voz será ouvida e recompensada
+            </HeaderMessage>
+          </Col>
         </Row>,
       },
       "ref": null,
@@ -44,9 +52,13 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "function",
         "props": Object {
-          "children": <HeaderMessage>
-            Sua voz será ouvida e recompensada
-          </HeaderMessage>,
+          "children": <Col
+            size={6}
+          >
+            <HeaderMessage>
+              Sua voz será ouvida e recompensada
+            </HeaderMessage>
+          </Col>,
         },
         "ref": null,
         "rendered": Object {
@@ -54,10 +66,23 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": "Sua voz será ouvida e recompensada",
+            "children": <HeaderMessage>
+              Sua voz será ouvida e recompensada
+            </HeaderMessage>,
+            "size": 6,
           },
           "ref": null,
-          "rendered": "Sua voz será ouvida e recompensada",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Sua voz será ouvida e recompensada",
+            },
+            "ref": null,
+            "rendered": "Sua voz será ouvida e recompensada",
+            "type": [Function],
+          },
           "type": [Function],
         },
         "type": [Function],
@@ -74,9 +99,13 @@ ShallowWrapper {
       "props": Object {
         "children": <Container>
           <Row>
-            <HeaderMessage>
-              Sua voz será ouvida e recompensada
-            </HeaderMessage>
+            <Col
+              size={6}
+            >
+              <HeaderMessage>
+                Sua voz será ouvida e recompensada
+              </HeaderMessage>
+            </Col>
           </Row>
         </Container>,
         "className": "header",
@@ -88,9 +117,13 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": <Row>
-            <HeaderMessage>
-              Sua voz será ouvida e recompensada
-            </HeaderMessage>
+            <Col
+              size={6}
+            >
+              <HeaderMessage>
+                Sua voz será ouvida e recompensada
+              </HeaderMessage>
+            </Col>
           </Row>,
         },
         "ref": null,
@@ -99,9 +132,13 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": <HeaderMessage>
-              Sua voz será ouvida e recompensada
-            </HeaderMessage>,
+            "children": <Col
+              size={6}
+            >
+              <HeaderMessage>
+                Sua voz será ouvida e recompensada
+              </HeaderMessage>
+            </Col>,
           },
           "ref": null,
           "rendered": Object {
@@ -109,10 +146,23 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": "Sua voz será ouvida e recompensada",
+              "children": <HeaderMessage>
+                Sua voz será ouvida e recompensada
+              </HeaderMessage>,
+              "size": 6,
             },
             "ref": null,
-            "rendered": "Sua voz será ouvida e recompensada",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Sua voz será ouvida e recompensada",
+              },
+              "ref": null,
+              "rendered": "Sua voz será ouvida e recompensada",
+              "type": [Function],
+            },
             "type": [Function],
           },
           "type": [Function],
