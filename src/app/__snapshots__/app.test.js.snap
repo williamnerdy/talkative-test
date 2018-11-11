@@ -15,25 +15,77 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
-      "children": "App Component",
+      "children": Array [
+        <Header />,
+        <h1>
+          App Component
+        </h1>,
+      ],
     },
     "ref": null,
-    "rendered": "App Component",
-    "type": "h1",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "App Component",
+        },
+        "ref": null,
+        "rendered": "App Component",
+        "type": "h1",
+      },
+    ],
+    "type": Symbol(react.fragment),
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
-        "children": "App Component",
+        "children": Array [
+          <Header />,
+          <h1>
+            App Component
+          </h1>,
+        ],
       },
       "ref": null,
-      "rendered": "App Component",
-      "type": "h1",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "App Component",
+          },
+          "ref": null,
+          "rendered": "App Component",
+          "type": "h1",
+        },
+      ],
+      "type": Symbol(react.fragment),
     },
   ],
   Symbol(enzyme.__options__): Object {
