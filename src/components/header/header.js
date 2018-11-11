@@ -6,7 +6,7 @@ import './style.css';
 const Header = () => (
   <header className="header">
     <Container>
-      <ReaderMessage>Hello World!</ReaderMessage>
+      <ReaderMessage>Sua voz será ouvida e recompensada</ReaderMessage>
     </Container>
   </header>
 );
