@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '../container';
 import Row from '../row';
 import Col from '../col';
+import Copyright from '../copyright';
 import './style.css';
 
 const Footer = () => (
@@ -9,7 +10,9 @@ const Footer = () => (
     <Container>
       <Row>
         <Col size={4}>Footer left</Col>
-        <Col size={4}>Footer right</Col>
+        <Col size={4}>
+          <Copyright />
+        </Col>
         <Col size={4}>Footer center</Col>
       </Row>
     </Container>
