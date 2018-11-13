@@ -24,13 +24,28 @@ ShallowWrapper {
           size={12}
         >
           <Card>
-            Card content...
+            <Title
+              color="default"
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+            </Title>
           </Card>
         </Col>
         <Col
           size={12}
         >
-          Main left
+          <p
+            style={
+              Object {
+                "padding": "30px",
+              }
+            }
+          />
         </Col>
       </Row>,
     },
@@ -45,13 +60,28 @@ ShallowWrapper {
             size={12}
           >
             <Card>
-              Card content...
+              <Title
+                color="default"
+                style={
+                  Object {
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+              </Title>
             </Card>
           </Col>,
           <Col
             size={12}
           >
-            Main left
+            <p
+              style={
+                Object {
+                  "padding": "30px",
+                }
+              }
+            />
           </Col>,
         ],
         "reverse": true,
@@ -64,7 +94,16 @@ ShallowWrapper {
           "nodeType": "function",
           "props": Object {
             "children": <Card>
-              Card content...
+              <Title
+                color="default"
+                style={
+                  Object {
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+              </Title>
             </Card>,
             "size": 12,
           },
@@ -74,10 +113,33 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": "Card content...",
+              "children": <Title
+                color="default"
+                style={
+                  Object {
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+              </Title>,
             },
             "ref": null,
-            "rendered": "Card content...",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
+                "color": "default",
+                "style": Object {
+                  "textAlign": "center",
+                },
+              },
+              "ref": null,
+              "rendered": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
+              "type": [Function],
+            },
             "type": [Function],
           },
           "type": [Function],
@@ -87,11 +149,29 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": "Main left",
+            "children": <p
+              style={
+                Object {
+                  "padding": "30px",
+                }
+              }
+            />,
             "size": 12,
           },
           "ref": null,
-          "rendered": "Main left",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "style": Object {
+                "padding": "30px",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "p",
+          },
           "type": [Function],
         },
       ],
@@ -112,13 +192,28 @@ ShallowWrapper {
             size={12}
           >
             <Card>
-              Card content...
+              <Title
+                color="default"
+                style={
+                  Object {
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+              </Title>
             </Card>
           </Col>
           <Col
             size={12}
           >
-            Main left
+            <p
+              style={
+                Object {
+                  "padding": "30px",
+                }
+              }
+            />
           </Col>
         </Row>,
       },
@@ -133,13 +228,28 @@ ShallowWrapper {
               size={12}
             >
               <Card>
-                Card content...
+                <Title
+                  color="default"
+                  style={
+                    Object {
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+                </Title>
               </Card>
             </Col>,
             <Col
               size={12}
             >
-              Main left
+              <p
+                style={
+                  Object {
+                    "padding": "30px",
+                  }
+                }
+              />
             </Col>,
           ],
           "reverse": true,
@@ -152,7 +262,16 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "children": <Card>
-                Card content...
+                <Title
+                  color="default"
+                  style={
+                    Object {
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+                </Title>
               </Card>,
               "size": 12,
             },
@@ -162,10 +281,33 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "children": "Card content...",
+                "children": <Title
+                  color="default"
+                  style={
+                    Object {
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+                </Title>,
               },
               "ref": null,
-              "rendered": "Card content...",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
+                  "color": "default",
+                  "style": Object {
+                    "textAlign": "center",
+                  },
+                },
+                "ref": null,
+                "rendered": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
+                "type": [Function],
+              },
               "type": [Function],
             },
             "type": [Function],
@@ -175,11 +317,29 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": "Main left",
+              "children": <p
+                style={
+                  Object {
+                    "padding": "30px",
+                  }
+                }
+              />,
               "size": 12,
             },
             "ref": null,
-            "rendered": "Main left",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "style": Object {
+                  "padding": "30px",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "p",
+            },
             "type": [Function],
           },
         ],

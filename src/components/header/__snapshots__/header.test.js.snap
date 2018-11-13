@@ -24,9 +24,16 @@ ShallowWrapper {
           <Col
             size={6}
           >
-            <HeaderMessage>
+            <Title
+              color="white"
+              style={
+                Object {
+                  "fontSize": "36px",
+                }
+              }
+            >
               Sua voz será ouvida e recompensada
-            </HeaderMessage>
+            </Title>
           </Col>
         </Row>
       </Container>,
@@ -44,9 +51,16 @@ ShallowWrapper {
           <Col
             size={6}
           >
-            <HeaderMessage>
+            <Title
+              color="white"
+              style={
+                Object {
+                  "fontSize": "36px",
+                }
+              }
+            >
               Sua voz será ouvida e recompensada
-            </HeaderMessage>
+            </Title>
           </Col>
         </Row>,
       },
@@ -59,9 +73,16 @@ ShallowWrapper {
           "children": <Col
             size={6}
           >
-            <HeaderMessage>
+            <Title
+              color="white"
+              style={
+                Object {
+                  "fontSize": "36px",
+                }
+              }
+            >
               Sua voz será ouvida e recompensada
-            </HeaderMessage>
+            </Title>
           </Col>,
           "reverse": false,
         },
@@ -71,9 +92,16 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": <HeaderMessage>
+            "children": <Title
+              color="white"
+              style={
+                Object {
+                  "fontSize": "36px",
+                }
+              }
+            >
               Sua voz será ouvida e recompensada
-            </HeaderMessage>,
+            </Title>,
             "size": 6,
           },
           "ref": null,
@@ -83,6 +111,10 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "children": "Sua voz será ouvida e recompensada",
+              "color": "white",
+              "style": Object {
+                "fontSize": "36px",
+              },
             },
             "ref": null,
             "rendered": "Sua voz será ouvida e recompensada",
@@ -109,9 +141,16 @@ ShallowWrapper {
             <Col
               size={6}
             >
-              <HeaderMessage>
+              <Title
+                color="white"
+                style={
+                  Object {
+                    "fontSize": "36px",
+                  }
+                }
+              >
                 Sua voz será ouvida e recompensada
-              </HeaderMessage>
+              </Title>
             </Col>
           </Row>
         </Container>,
@@ -129,9 +168,16 @@ ShallowWrapper {
             <Col
               size={6}
             >
-              <HeaderMessage>
+              <Title
+                color="white"
+                style={
+                  Object {
+                    "fontSize": "36px",
+                  }
+                }
+              >
                 Sua voz será ouvida e recompensada
-              </HeaderMessage>
+              </Title>
             </Col>
           </Row>,
         },
@@ -144,9 +190,16 @@ ShallowWrapper {
             "children": <Col
               size={6}
             >
-              <HeaderMessage>
+              <Title
+                color="white"
+                style={
+                  Object {
+                    "fontSize": "36px",
+                  }
+                }
+              >
                 Sua voz será ouvida e recompensada
-              </HeaderMessage>
+              </Title>
             </Col>,
             "reverse": false,
           },
@@ -156,9 +209,16 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": <HeaderMessage>
+              "children": <Title
+                color="white"
+                style={
+                  Object {
+                    "fontSize": "36px",
+                  }
+                }
+              >
                 Sua voz será ouvida e recompensada
-              </HeaderMessage>,
+              </Title>,
               "size": 6,
             },
             "ref": null,
@@ -168,6 +228,10 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "children": "Sua voz será ouvida e recompensada",
+                "color": "white",
+                "style": Object {
+                  "fontSize": "36px",
+                },
               },
               "ref": null,
               "rendered": "Sua voz será ouvida e recompensada",
