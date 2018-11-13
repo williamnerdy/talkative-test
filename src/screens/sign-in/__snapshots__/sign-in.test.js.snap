@@ -34,18 +34,26 @@ ShallowWrapper {
             >
               Sua primeira tarefa é preencher seus dados de acesso:
             </Title>
-            <Form>
+            <Form
+              onSubmit={[Function]}
+            >
               <Input
                 autoCorrect="off"
                 name="email"
+                onChange={[Function]}
                 placeholder="Digite seu e-mail"
+                required={true}
                 type="email"
+                value=""
               />
               <Input
                 autoComplete="off"
                 name="password"
+                onChange={[Function]}
                 placeholder="Digite sua senha"
+                required={true}
                 type="password"
+                value=""
               />
               <Row
                 reverse={false}
@@ -125,18 +133,26 @@ ShallowWrapper {
               >
                 Sua primeira tarefa é preencher seus dados de acesso:
               </Title>
-              <Form>
+              <Form
+                onSubmit={[Function]}
+              >
                 <Input
                   autoCorrect="off"
                   name="email"
+                  onChange={[Function]}
                   placeholder="Digite seu e-mail"
+                  required={true}
                   type="email"
+                  value=""
                 />
                 <Input
                   autoComplete="off"
                   name="password"
+                  onChange={[Function]}
                   placeholder="Digite sua senha"
+                  required={true}
                   type="password"
+                  value=""
                 />
                 <Row
                   reverse={false}
@@ -214,18 +230,26 @@ ShallowWrapper {
               >
                 Sua primeira tarefa é preencher seus dados de acesso:
               </Title>
-              <Form>
+              <Form
+                onSubmit={[Function]}
+              >
                 <Input
                   autoCorrect="off"
                   name="email"
+                  onChange={[Function]}
                   placeholder="Digite seu e-mail"
+                  required={true}
                   type="email"
+                  value=""
                 />
                 <Input
                   autoComplete="off"
                   name="password"
+                  onChange={[Function]}
                   placeholder="Digite sua senha"
+                  required={true}
                   type="password"
+                  value=""
                 />
                 <Row
                   reverse={false}
@@ -287,18 +311,26 @@ ShallowWrapper {
                 >
                   Sua primeira tarefa é preencher seus dados de acesso:
                 </Title>,
-                <Form>
+                <Form
+                  onSubmit={[Function]}
+                >
                   <Input
                     autoCorrect="off"
                     name="email"
+                    onChange={[Function]}
                     placeholder="Digite seu e-mail"
+                    required={true}
                     type="email"
+                    value=""
                   />
                   <Input
                     autoComplete="off"
                     name="password"
+                    onChange={[Function]}
                     placeholder="Digite sua senha"
+                    required={true}
                     type="password"
+                    value=""
                   />
                   <Row
                     reverse={false}
@@ -368,14 +400,20 @@ ShallowWrapper {
                     <Input
                       autoCorrect="off"
                       name="email"
+                      onChange={[Function]}
                       placeholder="Digite seu e-mail"
+                      required={true}
                       type="email"
+                      value=""
                     />,
                     <Input
                       autoComplete="off"
                       name="password"
+                      onChange={[Function]}
                       placeholder="Digite sua senha"
+                      required={true}
                       type="password"
+                      value=""
                     />,
                     <Row
                       reverse={false}
@@ -417,6 +455,7 @@ ShallowWrapper {
                       Esqueci minha senha
                     </Link>,
                   ],
+                  "onSubmit": [Function],
                 },
                 "ref": null,
                 "rendered": Array [
@@ -427,8 +466,11 @@ ShallowWrapper {
                     "props": Object {
                       "autoCorrect": "off",
                       "name": "email",
+                      "onChange": [Function],
                       "placeholder": "Digite seu e-mail",
+                      "required": true,
                       "type": "email",
+                      "value": "",
                     },
                     "ref": null,
                     "rendered": null,
@@ -441,8 +483,11 @@ ShallowWrapper {
                     "props": Object {
                       "autoComplete": "off",
                       "name": "password",
+                      "onChange": [Function],
                       "placeholder": "Digite sua senha",
+                      "required": true,
                       "type": "password",
+                      "value": "",
                     },
                     "ref": null,
                     "rendered": null,
@@ -707,18 +752,26 @@ ShallowWrapper {
               >
                 Sua primeira tarefa é preencher seus dados de acesso:
               </Title>
-              <Form>
+              <Form
+                onSubmit={[Function]}
+              >
                 <Input
                   autoCorrect="off"
                   name="email"
+                  onChange={[Function]}
                   placeholder="Digite seu e-mail"
+                  required={true}
                   type="email"
+                  value=""
                 />
                 <Input
                   autoComplete="off"
                   name="password"
+                  onChange={[Function]}
                   placeholder="Digite sua senha"
+                  required={true}
                   type="password"
+                  value=""
                 />
                 <Row
                   reverse={false}
@@ -798,18 +851,26 @@ ShallowWrapper {
                 >
                   Sua primeira tarefa é preencher seus dados de acesso:
                 </Title>
-                <Form>
+                <Form
+                  onSubmit={[Function]}
+                >
                   <Input
                     autoCorrect="off"
                     name="email"
+                    onChange={[Function]}
                     placeholder="Digite seu e-mail"
+                    required={true}
                     type="email"
+                    value=""
                   />
                   <Input
                     autoComplete="off"
                     name="password"
+                    onChange={[Function]}
                     placeholder="Digite sua senha"
+                    required={true}
                     type="password"
+                    value=""
                   />
                   <Row
                     reverse={false}
@@ -887,18 +948,26 @@ ShallowWrapper {
                 >
                   Sua primeira tarefa é preencher seus dados de acesso:
                 </Title>
-                <Form>
+                <Form
+                  onSubmit={[Function]}
+                >
                   <Input
                     autoCorrect="off"
                     name="email"
+                    onChange={[Function]}
                     placeholder="Digite seu e-mail"
+                    required={true}
                     type="email"
+                    value=""
                   />
                   <Input
                     autoComplete="off"
                     name="password"
+                    onChange={[Function]}
                     placeholder="Digite sua senha"
+                    required={true}
                     type="password"
+                    value=""
                   />
                   <Row
                     reverse={false}
@@ -960,18 +1029,26 @@ ShallowWrapper {
                   >
                     Sua primeira tarefa é preencher seus dados de acesso:
                   </Title>,
-                  <Form>
+                  <Form
+                    onSubmit={[Function]}
+                  >
                     <Input
                       autoCorrect="off"
                       name="email"
+                      onChange={[Function]}
                       placeholder="Digite seu e-mail"
+                      required={true}
                       type="email"
+                      value=""
                     />
                     <Input
                       autoComplete="off"
                       name="password"
+                      onChange={[Function]}
                       placeholder="Digite sua senha"
+                      required={true}
                       type="password"
+                      value=""
                     />
                     <Row
                       reverse={false}
@@ -1041,14 +1118,20 @@ ShallowWrapper {
                       <Input
                         autoCorrect="off"
                         name="email"
+                        onChange={[Function]}
                         placeholder="Digite seu e-mail"
+                        required={true}
                         type="email"
+                        value=""
                       />,
                       <Input
                         autoComplete="off"
                         name="password"
+                        onChange={[Function]}
                         placeholder="Digite sua senha"
+                        required={true}
                         type="password"
+                        value=""
                       />,
                       <Row
                         reverse={false}
@@ -1090,6 +1173,7 @@ ShallowWrapper {
                         Esqueci minha senha
                       </Link>,
                     ],
+                    "onSubmit": [Function],
                   },
                   "ref": null,
                   "rendered": Array [
@@ -1100,8 +1184,11 @@ ShallowWrapper {
                       "props": Object {
                         "autoCorrect": "off",
                         "name": "email",
+                        "onChange": [Function],
                         "placeholder": "Digite seu e-mail",
+                        "required": true,
                         "type": "email",
+                        "value": "",
                       },
                       "ref": null,
                       "rendered": null,
@@ -1114,8 +1201,11 @@ ShallowWrapper {
                       "props": Object {
                         "autoComplete": "off",
                         "name": "password",
+                        "onChange": [Function],
                         "placeholder": "Digite sua senha",
+                        "required": true,
                         "type": "password",
+                        "value": "",
                       },
                       "ref": null,
                       "rendered": null,

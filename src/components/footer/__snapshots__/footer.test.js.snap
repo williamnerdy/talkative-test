@@ -22,7 +22,7 @@ ShallowWrapper {
           reverse={false}
         >
           <Col
-            size={4}
+            size={3}
           >
             <Logo />
           </Col>
@@ -32,9 +32,23 @@ ShallowWrapper {
             <Copyright />
           </Col>
           <Col
-            size={4}
+            size={5}
           >
-            Footer center
+            <Link
+              to="//example.com"
+            >
+              Enviar Feedback
+            </Link>
+            <Link
+              to="//example.com"
+            >
+              Sobre Nós
+            </Link>
+            <Link
+              to="//example.com"
+            >
+              Fale Conosco
+            </Link>
           </Col>
         </Row>
       </Container>,
@@ -50,7 +64,7 @@ ShallowWrapper {
           reverse={false}
         >
           <Col
-            size={4}
+            size={3}
           >
             <Logo />
           </Col>
@@ -60,9 +74,23 @@ ShallowWrapper {
             <Copyright />
           </Col>
           <Col
-            size={4}
+            size={5}
           >
-            Footer center
+            <Link
+              to="//example.com"
+            >
+              Enviar Feedback
+            </Link>
+            <Link
+              to="//example.com"
+            >
+              Sobre Nós
+            </Link>
+            <Link
+              to="//example.com"
+            >
+              Fale Conosco
+            </Link>
           </Col>
         </Row>,
       },
@@ -74,7 +102,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <Col
-              size={4}
+              size={3}
             >
               <Logo />
             </Col>,
@@ -84,9 +112,23 @@ ShallowWrapper {
               <Copyright />
             </Col>,
             <Col
-              size={4}
+              size={5}
             >
-              Footer center
+              <Link
+                to="//example.com"
+              >
+                Enviar Feedback
+              </Link>
+              <Link
+                to="//example.com"
+              >
+                Sobre Nós
+              </Link>
+              <Link
+                to="//example.com"
+              >
+                Fale Conosco
+              </Link>
             </Col>,
           ],
           "reverse": false,
@@ -99,7 +141,7 @@ ShallowWrapper {
             "nodeType": "function",
             "props": Object {
               "children": <Logo />,
-              "size": 4,
+              "size": 3,
             },
             "ref": null,
             "rendered": Object {
@@ -138,11 +180,64 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": "Footer center",
-              "size": 4,
+              "children": Array [
+                <Link
+                  to="//example.com"
+                >
+                  Enviar Feedback
+                </Link>,
+                <Link
+                  to="//example.com"
+                >
+                  Sobre Nós
+                </Link>,
+                <Link
+                  to="//example.com"
+                >
+                  Fale Conosco
+                </Link>,
+              ],
+              "size": 5,
             },
             "ref": null,
-            "rendered": "Footer center",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Enviar Feedback",
+                  "to": "//example.com",
+                },
+                "ref": null,
+                "rendered": "Enviar Feedback",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Sobre Nós",
+                  "to": "//example.com",
+                },
+                "ref": null,
+                "rendered": "Sobre Nós",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Fale Conosco",
+                  "to": "//example.com",
+                },
+                "ref": null,
+                "rendered": "Fale Conosco",
+                "type": [Function],
+              },
+            ],
             "type": [Function],
           },
         ],
@@ -163,7 +258,7 @@ ShallowWrapper {
             reverse={false}
           >
             <Col
-              size={4}
+              size={3}
             >
               <Logo />
             </Col>
@@ -173,9 +268,23 @@ ShallowWrapper {
               <Copyright />
             </Col>
             <Col
-              size={4}
+              size={5}
             >
-              Footer center
+              <Link
+                to="//example.com"
+              >
+                Enviar Feedback
+              </Link>
+              <Link
+                to="//example.com"
+              >
+                Sobre Nós
+              </Link>
+              <Link
+                to="//example.com"
+              >
+                Fale Conosco
+              </Link>
             </Col>
           </Row>
         </Container>,
@@ -191,7 +300,7 @@ ShallowWrapper {
             reverse={false}
           >
             <Col
-              size={4}
+              size={3}
             >
               <Logo />
             </Col>
@@ -201,9 +310,23 @@ ShallowWrapper {
               <Copyright />
             </Col>
             <Col
-              size={4}
+              size={5}
             >
-              Footer center
+              <Link
+                to="//example.com"
+              >
+                Enviar Feedback
+              </Link>
+              <Link
+                to="//example.com"
+              >
+                Sobre Nós
+              </Link>
+              <Link
+                to="//example.com"
+              >
+                Fale Conosco
+              </Link>
             </Col>
           </Row>,
         },
@@ -215,7 +338,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <Col
-                size={4}
+                size={3}
               >
                 <Logo />
               </Col>,
@@ -225,9 +348,23 @@ ShallowWrapper {
                 <Copyright />
               </Col>,
               <Col
-                size={4}
+                size={5}
               >
-                Footer center
+                <Link
+                  to="//example.com"
+                >
+                  Enviar Feedback
+                </Link>
+                <Link
+                  to="//example.com"
+                >
+                  Sobre Nós
+                </Link>
+                <Link
+                  to="//example.com"
+                >
+                  Fale Conosco
+                </Link>
               </Col>,
             ],
             "reverse": false,
@@ -240,7 +377,7 @@ ShallowWrapper {
               "nodeType": "function",
               "props": Object {
                 "children": <Logo />,
-                "size": 4,
+                "size": 3,
               },
               "ref": null,
               "rendered": Object {
@@ -279,11 +416,64 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "children": "Footer center",
-                "size": 4,
+                "children": Array [
+                  <Link
+                    to="//example.com"
+                  >
+                    Enviar Feedback
+                  </Link>,
+                  <Link
+                    to="//example.com"
+                  >
+                    Sobre Nós
+                  </Link>,
+                  <Link
+                    to="//example.com"
+                  >
+                    Fale Conosco
+                  </Link>,
+                ],
+                "size": 5,
               },
               "ref": null,
-              "rendered": "Footer center",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Enviar Feedback",
+                    "to": "//example.com",
+                  },
+                  "ref": null,
+                  "rendered": "Enviar Feedback",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Sobre Nós",
+                    "to": "//example.com",
+                  },
+                  "ref": null,
+                  "rendered": "Sobre Nós",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Fale Conosco",
+                    "to": "//example.com",
+                  },
+                  "ref": null,
+                  "rendered": "Fale Conosco",
+                  "type": [Function],
+                },
+              ],
               "type": [Function],
             },
           ],

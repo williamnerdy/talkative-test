@@ -17,10 +17,51 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "® Mobify é uma ferramenta Talkative by Wololo Tech",
+      "children": Array [
+        <span>
+          ® Mobify é uma ferramenta
+        </span>,
+        <br />,
+        <span>
+          Talkative by Wololo Tech
+        </span>,
+      ],
+      "className": "copyright",
     },
     "ref": null,
-    "rendered": "® Mobify é uma ferramenta Talkative by Wololo Tech",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "® Mobify é uma ferramenta",
+        },
+        "ref": null,
+        "rendered": "® Mobify é uma ferramenta",
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Talkative by Wololo Tech",
+        },
+        "ref": null,
+        "rendered": "Talkative by Wololo Tech",
+        "type": "span",
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -29,10 +70,51 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "® Mobify é uma ferramenta Talkative by Wololo Tech",
+        "children": Array [
+          <span>
+            ® Mobify é uma ferramenta
+          </span>,
+          <br />,
+          <span>
+            Talkative by Wololo Tech
+          </span>,
+        ],
+        "className": "copyright",
       },
       "ref": null,
-      "rendered": "® Mobify é uma ferramenta Talkative by Wololo Tech",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "® Mobify é uma ferramenta",
+          },
+          "ref": null,
+          "rendered": "® Mobify é uma ferramenta",
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Talkative by Wololo Tech",
+          },
+          "ref": null,
+          "rendered": "Talkative by Wololo Tech",
+          "type": "span",
+        },
+      ],
       "type": "div",
     },
   ],

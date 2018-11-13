@@ -3,9 +3,7 @@
 exports[`<Col /> should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Col
-    size={12}
-  />,
+  Symbol(enzyme.__unrendered__): <Col />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -20,7 +18,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": undefined,
-      "className": "col col-12",
+      "className": "col col-undefined",
     },
     "ref": null,
     "rendered": null,
@@ -33,7 +31,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": undefined,
-        "className": "col col-12",
+        "className": "col col-undefined",
       },
       "ref": null,
       "rendered": null,
@@ -63,9 +61,7 @@ ShallowWrapper {
 exports[`<Col /> should render with children 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Col
-    size={12}
-  >
+  Symbol(enzyme.__unrendered__): <Col>
     Test
   </Col>,
   Symbol(enzyme.__renderer__): Object {
@@ -82,7 +78,7 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": "Test",
-      "className": "col col-12",
+      "className": "col col-undefined",
     },
     "ref": null,
     "rendered": "Test",
@@ -95,7 +91,7 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": "Test",
-        "className": "col col-12",
+        "className": "col col-undefined",
       },
       "ref": null,
       "rendered": "Test",
@@ -125,9 +121,7 @@ ShallowWrapper {
 exports[`<Col /> should render with multiple children 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Col
-    size={12}
-  >
+  Symbol(enzyme.__unrendered__): <Col>
     <div>
       Test
     </div>
@@ -162,7 +156,7 @@ ShallowWrapper {
           Test
         </div>,
       ],
-      "className": "col col-12",
+      "className": "col col-undefined",
     },
     "ref": null,
     "rendered": Array [
@@ -219,7 +213,7 @@ ShallowWrapper {
             Test
           </div>,
         ],
-        "className": "col col-12",
+        "className": "col col-undefined",
       },
       "ref": null,
       "rendered": Array [
