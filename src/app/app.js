@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../components/header';
-import Main from '../components/main';
 import Footer from '../components/footer';
+import Routes from '../routes';
 import './style.css';
 
 const App = () => (
   <>
     <Header />
-    <Main />
+    <Routes />
     <Footer />
   </>
 );
