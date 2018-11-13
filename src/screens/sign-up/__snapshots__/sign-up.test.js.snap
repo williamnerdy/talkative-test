@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Main /> should render correctly 1`] = `
+exports[`<SignUp /> should render correctly 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Main />,
+  Symbol(enzyme.__unrendered__): <SignUp />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -32,25 +32,33 @@ ShallowWrapper {
                 }
               }
             >
-              Sua primeira tarefa é preencher seus dados de acesso:
+              Para validar seu convite é preciso cadastrar os seguintes dados:
             </Title>
             <Form>
               <Input
-                autocorrect="off"
+                autoCorrect="off"
                 name="email"
                 placeholder="Digite seu e-mail"
                 type="email"
               />
               <Input
-                autocomplete="off"
+                autoComplete="off"
                 name="password"
-                placeholder="Digite sua senha"
+                placeholder="Escolha sua senha"
+                type="password"
+              />
+              <Input
+                autoComplete="off"
+                name="password"
+                placeholder="Confirme sua senha"
                 type="password"
               />
               <Row
                 reverse={false}
               >
-                <Col>
+                <Col
+                  size={6}
+                >
                   <Button
                     color="facebook"
                     type="button"
@@ -59,19 +67,21 @@ ShallowWrapper {
                       name="facebook"
                     />
                     <span>
-                      Entrar com o Facebook
+                      Criar com o Facebook
                     </span>
                   </Button>
                 </Col>
-                <Col>
+                <Col
+                  size={6}
+                >
                   <Button
                     color="form"
                   >
                     <Icon
-                      name="sign-in"
+                      name="user"
                     />
                     <span>
-                      Entrar
+                      Criar conta
                     </span>
                   </Button>
                 </Col>
@@ -82,15 +92,24 @@ ShallowWrapper {
         <Col
           size={5}
         >
-          <p
+          <div
             style={
               Object {
                 "padding": "30px 0",
               }
             }
           >
-            Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
-          </p>
+            <div>
+              Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+            </div>
+            <br />
+            <div>
+              <span>
+                Este convite expira em: 
+              </span>
+              <Countdown />
+            </div>
+          </div>
         </Col>
       </Row>,
     },
@@ -113,25 +132,33 @@ ShallowWrapper {
                   }
                 }
               >
-                Sua primeira tarefa é preencher seus dados de acesso:
+                Para validar seu convite é preciso cadastrar os seguintes dados:
               </Title>
               <Form>
                 <Input
-                  autocorrect="off"
+                  autoCorrect="off"
                   name="email"
                   placeholder="Digite seu e-mail"
                   type="email"
                 />
                 <Input
-                  autocomplete="off"
+                  autoComplete="off"
                   name="password"
-                  placeholder="Digite sua senha"
+                  placeholder="Escolha sua senha"
+                  type="password"
+                />
+                <Input
+                  autoComplete="off"
+                  name="password"
+                  placeholder="Confirme sua senha"
                   type="password"
                 />
                 <Row
                   reverse={false}
                 >
-                  <Col>
+                  <Col
+                    size={6}
+                  >
                     <Button
                       color="facebook"
                       type="button"
@@ -140,19 +167,21 @@ ShallowWrapper {
                         name="facebook"
                       />
                       <span>
-                        Entrar com o Facebook
+                        Criar com o Facebook
                       </span>
                     </Button>
                   </Col>
-                  <Col>
+                  <Col
+                    size={6}
+                  >
                     <Button
                       color="form"
                     >
                       <Icon
-                        name="sign-in"
+                        name="user"
                       />
                       <span>
-                        Entrar
+                        Criar conta
                       </span>
                     </Button>
                   </Col>
@@ -163,15 +192,24 @@ ShallowWrapper {
           <Col
             size={5}
           >
-            <p
+            <div
               style={
                 Object {
                   "padding": "30px 0",
                 }
               }
             >
-              Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
-            </p>
+              <div>
+                Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+              </div>
+              <br />
+              <div>
+                <span>
+                  Este convite expira em: 
+                </span>
+                <Countdown />
+              </div>
+            </div>
           </Col>,
         ],
         "reverse": true,
@@ -192,25 +230,33 @@ ShallowWrapper {
                   }
                 }
               >
-                Sua primeira tarefa é preencher seus dados de acesso:
+                Para validar seu convite é preciso cadastrar os seguintes dados:
               </Title>
               <Form>
                 <Input
-                  autocorrect="off"
+                  autoCorrect="off"
                   name="email"
                   placeholder="Digite seu e-mail"
                   type="email"
                 />
                 <Input
-                  autocomplete="off"
+                  autoComplete="off"
                   name="password"
-                  placeholder="Digite sua senha"
+                  placeholder="Escolha sua senha"
+                  type="password"
+                />
+                <Input
+                  autoComplete="off"
+                  name="password"
+                  placeholder="Confirme sua senha"
                   type="password"
                 />
                 <Row
                   reverse={false}
                 >
-                  <Col>
+                  <Col
+                    size={6}
+                  >
                     <Button
                       color="facebook"
                       type="button"
@@ -219,19 +265,21 @@ ShallowWrapper {
                         name="facebook"
                       />
                       <span>
-                        Entrar com o Facebook
+                        Criar com o Facebook
                       </span>
                     </Button>
                   </Col>
-                  <Col>
+                  <Col
+                    size={6}
+                  >
                     <Button
                       color="form"
                     >
                       <Icon
-                        name="sign-in"
+                        name="user"
                       />
                       <span>
-                        Entrar
+                        Criar conta
                       </span>
                     </Button>
                   </Col>
@@ -255,25 +303,33 @@ ShallowWrapper {
                     }
                   }
                 >
-                  Sua primeira tarefa é preencher seus dados de acesso:
+                  Para validar seu convite é preciso cadastrar os seguintes dados:
                 </Title>,
                 <Form>
                   <Input
-                    autocorrect="off"
+                    autoCorrect="off"
                     name="email"
                     placeholder="Digite seu e-mail"
                     type="email"
                   />
                   <Input
-                    autocomplete="off"
+                    autoComplete="off"
                     name="password"
-                    placeholder="Digite sua senha"
+                    placeholder="Escolha sua senha"
+                    type="password"
+                  />
+                  <Input
+                    autoComplete="off"
+                    name="password"
+                    placeholder="Confirme sua senha"
                     type="password"
                   />
                   <Row
                     reverse={false}
                   >
-                    <Col>
+                    <Col
+                      size={6}
+                    >
                       <Button
                         color="facebook"
                         type="button"
@@ -282,19 +338,21 @@ ShallowWrapper {
                           name="facebook"
                         />
                         <span>
-                          Entrar com o Facebook
+                          Criar com o Facebook
                         </span>
                       </Button>
                     </Col>
-                    <Col>
+                    <Col
+                      size={6}
+                    >
                       <Button
                         color="form"
                       >
                         <Icon
-                          name="sign-in"
+                          name="user"
                         />
                         <span>
-                          Entrar
+                          Criar conta
                         </span>
                       </Button>
                     </Col>
@@ -309,14 +367,14 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "function",
                 "props": Object {
-                  "children": "Sua primeira tarefa é preencher seus dados de acesso:",
+                  "children": "Para validar seu convite é preciso cadastrar os seguintes dados:",
                   "color": "default",
                   "style": Object {
                     "textAlign": "center",
                   },
                 },
                 "ref": null,
-                "rendered": "Sua primeira tarefa é preencher seus dados de acesso:",
+                "rendered": "Para validar seu convite é preciso cadastrar os seguintes dados:",
                 "type": [Function],
               },
               Object {
@@ -326,21 +384,29 @@ ShallowWrapper {
                 "props": Object {
                   "children": Array [
                     <Input
-                      autocorrect="off"
+                      autoCorrect="off"
                       name="email"
                       placeholder="Digite seu e-mail"
                       type="email"
                     />,
                     <Input
-                      autocomplete="off"
+                      autoComplete="off"
                       name="password"
-                      placeholder="Digite sua senha"
+                      placeholder="Escolha sua senha"
+                      type="password"
+                    />,
+                    <Input
+                      autoComplete="off"
+                      name="password"
+                      placeholder="Confirme sua senha"
                       type="password"
                     />,
                     <Row
                       reverse={false}
                     >
-                      <Col>
+                      <Col
+                        size={6}
+                      >
                         <Button
                           color="facebook"
                           type="button"
@@ -349,19 +415,21 @@ ShallowWrapper {
                             name="facebook"
                           />
                           <span>
-                            Entrar com o Facebook
+                            Criar com o Facebook
                           </span>
                         </Button>
                       </Col>
-                      <Col>
+                      <Col
+                        size={6}
+                      >
                         <Button
                           color="form"
                         >
                           <Icon
-                            name="sign-in"
+                            name="user"
                           />
                           <span>
-                            Entrar
+                            Criar conta
                           </span>
                         </Button>
                       </Col>
@@ -375,7 +443,7 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "function",
                     "props": Object {
-                      "autocorrect": "off",
+                      "autoCorrect": "off",
                       "name": "email",
                       "placeholder": "Digite seu e-mail",
                       "type": "email",
@@ -389,9 +457,23 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "function",
                     "props": Object {
-                      "autocomplete": "off",
+                      "autoComplete": "off",
                       "name": "password",
-                      "placeholder": "Digite sua senha",
+                      "placeholder": "Escolha sua senha",
+                      "type": "password",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "autoComplete": "off",
+                      "name": "password",
+                      "placeholder": "Confirme sua senha",
                       "type": "password",
                     },
                     "ref": null,
@@ -404,7 +486,9 @@ ShallowWrapper {
                     "nodeType": "function",
                     "props": Object {
                       "children": Array [
-                        <Col>
+                        <Col
+                          size={6}
+                        >
                           <Button
                             color="facebook"
                             type="button"
@@ -413,19 +497,21 @@ ShallowWrapper {
                               name="facebook"
                             />
                             <span>
-                              Entrar com o Facebook
+                              Criar com o Facebook
                             </span>
                           </Button>
                         </Col>,
-                        <Col>
+                        <Col
+                          size={6}
+                        >
                           <Button
                             color="form"
                           >
                             <Icon
-                              name="sign-in"
+                              name="user"
                             />
                             <span>
-                              Entrar
+                              Criar conta
                             </span>
                           </Button>
                         </Col>,
@@ -447,9 +533,10 @@ ShallowWrapper {
                               name="facebook"
                             />
                             <span>
-                              Entrar com o Facebook
+                              Criar com o Facebook
                             </span>
                           </Button>,
+                          "size": 6,
                         },
                         "ref": null,
                         "rendered": Object {
@@ -462,7 +549,7 @@ ShallowWrapper {
                                 name="facebook"
                               />,
                               <span>
-                                Entrar com o Facebook
+                                Criar com o Facebook
                               </span>,
                             ],
                             "color": "facebook",
@@ -486,10 +573,10 @@ ShallowWrapper {
                               "key": undefined,
                               "nodeType": "host",
                               "props": Object {
-                                "children": "Entrar com o Facebook",
+                                "children": "Criar com o Facebook",
                               },
                               "ref": null,
-                              "rendered": "Entrar com o Facebook",
+                              "rendered": "Criar com o Facebook",
                               "type": "span",
                             },
                           ],
@@ -506,12 +593,13 @@ ShallowWrapper {
                             color="form"
                           >
                             <Icon
-                              name="sign-in"
+                              name="user"
                             />
                             <span>
-                              Entrar
+                              Criar conta
                             </span>
                           </Button>,
+                          "size": 6,
                         },
                         "ref": null,
                         "rendered": Object {
@@ -521,10 +609,10 @@ ShallowWrapper {
                           "props": Object {
                             "children": Array [
                               <Icon
-                                name="sign-in"
+                                name="user"
                               />,
                               <span>
-                                Entrar
+                                Criar conta
                               </span>,
                             ],
                             "color": "form",
@@ -536,7 +624,7 @@ ShallowWrapper {
                               "key": undefined,
                               "nodeType": "function",
                               "props": Object {
-                                "name": "sign-in",
+                                "name": "user",
                               },
                               "ref": null,
                               "rendered": null,
@@ -547,10 +635,10 @@ ShallowWrapper {
                               "key": undefined,
                               "nodeType": "host",
                               "props": Object {
-                                "children": "Entrar",
+                                "children": "Criar conta",
                               },
                               "ref": null,
-                              "rendered": "Entrar",
+                              "rendered": "Criar conta",
                               "type": "span",
                             },
                           ],
@@ -574,15 +662,24 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": <p
+            "children": <div
               style={
                 Object {
                   "padding": "30px 0",
                 }
               }
             >
-              Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
-            </p>,
+              <div>
+                Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+              </div>
+              <br />
+              <div>
+                <span>
+                  Este convite expira em: 
+                </span>
+                <Countdown />
+              </div>
+            </div>,
             "size": 5,
           },
           "ref": null,
@@ -591,14 +688,83 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
+              "children": Array [
+                <div>
+                  Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+                </div>,
+                <br />,
+                <div>
+                  <span>
+                    Este convite expira em: 
+                  </span>
+                  <Countdown />
+                </div>,
+              ],
               "style": Object {
                 "padding": "30px 0",
               },
             },
             "ref": null,
-            "rendered": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
-            "type": "p",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
+                },
+                "ref": null,
+                "rendered": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <span>
+                      Este convite expira em: 
+                    </span>,
+                    <Countdown />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Este convite expira em: ",
+                    },
+                    "ref": null,
+                    "rendered": "Este convite expira em: ",
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
           },
           "type": [Function],
         },
@@ -628,25 +794,33 @@ ShallowWrapper {
                   }
                 }
               >
-                Sua primeira tarefa é preencher seus dados de acesso:
+                Para validar seu convite é preciso cadastrar os seguintes dados:
               </Title>
               <Form>
                 <Input
-                  autocorrect="off"
+                  autoCorrect="off"
                   name="email"
                   placeholder="Digite seu e-mail"
                   type="email"
                 />
                 <Input
-                  autocomplete="off"
+                  autoComplete="off"
                   name="password"
-                  placeholder="Digite sua senha"
+                  placeholder="Escolha sua senha"
+                  type="password"
+                />
+                <Input
+                  autoComplete="off"
+                  name="password"
+                  placeholder="Confirme sua senha"
                   type="password"
                 />
                 <Row
                   reverse={false}
                 >
-                  <Col>
+                  <Col
+                    size={6}
+                  >
                     <Button
                       color="facebook"
                       type="button"
@@ -655,19 +829,21 @@ ShallowWrapper {
                         name="facebook"
                       />
                       <span>
-                        Entrar com o Facebook
+                        Criar com o Facebook
                       </span>
                     </Button>
                   </Col>
-                  <Col>
+                  <Col
+                    size={6}
+                  >
                     <Button
                       color="form"
                     >
                       <Icon
-                        name="sign-in"
+                        name="user"
                       />
                       <span>
-                        Entrar
+                        Criar conta
                       </span>
                     </Button>
                   </Col>
@@ -678,15 +854,24 @@ ShallowWrapper {
           <Col
             size={5}
           >
-            <p
+            <div
               style={
                 Object {
                   "padding": "30px 0",
                 }
               }
             >
-              Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
-            </p>
+              <div>
+                Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+              </div>
+              <br />
+              <div>
+                <span>
+                  Este convite expira em: 
+                </span>
+                <Countdown />
+              </div>
+            </div>
           </Col>
         </Row>,
       },
@@ -709,25 +894,33 @@ ShallowWrapper {
                     }
                   }
                 >
-                  Sua primeira tarefa é preencher seus dados de acesso:
+                  Para validar seu convite é preciso cadastrar os seguintes dados:
                 </Title>
                 <Form>
                   <Input
-                    autocorrect="off"
+                    autoCorrect="off"
                     name="email"
                     placeholder="Digite seu e-mail"
                     type="email"
                   />
                   <Input
-                    autocomplete="off"
+                    autoComplete="off"
                     name="password"
-                    placeholder="Digite sua senha"
+                    placeholder="Escolha sua senha"
+                    type="password"
+                  />
+                  <Input
+                    autoComplete="off"
+                    name="password"
+                    placeholder="Confirme sua senha"
                     type="password"
                   />
                   <Row
                     reverse={false}
                   >
-                    <Col>
+                    <Col
+                      size={6}
+                    >
                       <Button
                         color="facebook"
                         type="button"
@@ -736,19 +929,21 @@ ShallowWrapper {
                           name="facebook"
                         />
                         <span>
-                          Entrar com o Facebook
+                          Criar com o Facebook
                         </span>
                       </Button>
                     </Col>
-                    <Col>
+                    <Col
+                      size={6}
+                    >
                       <Button
                         color="form"
                       >
                         <Icon
-                          name="sign-in"
+                          name="user"
                         />
                         <span>
-                          Entrar
+                          Criar conta
                         </span>
                       </Button>
                     </Col>
@@ -759,15 +954,24 @@ ShallowWrapper {
             <Col
               size={5}
             >
-              <p
+              <div
                 style={
                   Object {
                     "padding": "30px 0",
                   }
                 }
               >
-                Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
-              </p>
+                <div>
+                  Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+                </div>
+                <br />
+                <div>
+                  <span>
+                    Este convite expira em: 
+                  </span>
+                  <Countdown />
+                </div>
+              </div>
             </Col>,
           ],
           "reverse": true,
@@ -788,25 +992,33 @@ ShallowWrapper {
                     }
                   }
                 >
-                  Sua primeira tarefa é preencher seus dados de acesso:
+                  Para validar seu convite é preciso cadastrar os seguintes dados:
                 </Title>
                 <Form>
                   <Input
-                    autocorrect="off"
+                    autoCorrect="off"
                     name="email"
                     placeholder="Digite seu e-mail"
                     type="email"
                   />
                   <Input
-                    autocomplete="off"
+                    autoComplete="off"
                     name="password"
-                    placeholder="Digite sua senha"
+                    placeholder="Escolha sua senha"
+                    type="password"
+                  />
+                  <Input
+                    autoComplete="off"
+                    name="password"
+                    placeholder="Confirme sua senha"
                     type="password"
                   />
                   <Row
                     reverse={false}
                   >
-                    <Col>
+                    <Col
+                      size={6}
+                    >
                       <Button
                         color="facebook"
                         type="button"
@@ -815,19 +1027,21 @@ ShallowWrapper {
                           name="facebook"
                         />
                         <span>
-                          Entrar com o Facebook
+                          Criar com o Facebook
                         </span>
                       </Button>
                     </Col>
-                    <Col>
+                    <Col
+                      size={6}
+                    >
                       <Button
                         color="form"
                       >
                         <Icon
-                          name="sign-in"
+                          name="user"
                         />
                         <span>
-                          Entrar
+                          Criar conta
                         </span>
                       </Button>
                     </Col>
@@ -851,25 +1065,33 @@ ShallowWrapper {
                       }
                     }
                   >
-                    Sua primeira tarefa é preencher seus dados de acesso:
+                    Para validar seu convite é preciso cadastrar os seguintes dados:
                   </Title>,
                   <Form>
                     <Input
-                      autocorrect="off"
+                      autoCorrect="off"
                       name="email"
                       placeholder="Digite seu e-mail"
                       type="email"
                     />
                     <Input
-                      autocomplete="off"
+                      autoComplete="off"
                       name="password"
-                      placeholder="Digite sua senha"
+                      placeholder="Escolha sua senha"
+                      type="password"
+                    />
+                    <Input
+                      autoComplete="off"
+                      name="password"
+                      placeholder="Confirme sua senha"
                       type="password"
                     />
                     <Row
                       reverse={false}
                     >
-                      <Col>
+                      <Col
+                        size={6}
+                      >
                         <Button
                           color="facebook"
                           type="button"
@@ -878,19 +1100,21 @@ ShallowWrapper {
                             name="facebook"
                           />
                           <span>
-                            Entrar com o Facebook
+                            Criar com o Facebook
                           </span>
                         </Button>
                       </Col>
-                      <Col>
+                      <Col
+                        size={6}
+                      >
                         <Button
                           color="form"
                         >
                           <Icon
-                            name="sign-in"
+                            name="user"
                           />
                           <span>
-                            Entrar
+                            Criar conta
                           </span>
                         </Button>
                       </Col>
@@ -905,14 +1129,14 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "function",
                   "props": Object {
-                    "children": "Sua primeira tarefa é preencher seus dados de acesso:",
+                    "children": "Para validar seu convite é preciso cadastrar os seguintes dados:",
                     "color": "default",
                     "style": Object {
                       "textAlign": "center",
                     },
                   },
                   "ref": null,
-                  "rendered": "Sua primeira tarefa é preencher seus dados de acesso:",
+                  "rendered": "Para validar seu convite é preciso cadastrar os seguintes dados:",
                   "type": [Function],
                 },
                 Object {
@@ -922,21 +1146,29 @@ ShallowWrapper {
                   "props": Object {
                     "children": Array [
                       <Input
-                        autocorrect="off"
+                        autoCorrect="off"
                         name="email"
                         placeholder="Digite seu e-mail"
                         type="email"
                       />,
                       <Input
-                        autocomplete="off"
+                        autoComplete="off"
                         name="password"
-                        placeholder="Digite sua senha"
+                        placeholder="Escolha sua senha"
+                        type="password"
+                      />,
+                      <Input
+                        autoComplete="off"
+                        name="password"
+                        placeholder="Confirme sua senha"
                         type="password"
                       />,
                       <Row
                         reverse={false}
                       >
-                        <Col>
+                        <Col
+                          size={6}
+                        >
                           <Button
                             color="facebook"
                             type="button"
@@ -945,19 +1177,21 @@ ShallowWrapper {
                               name="facebook"
                             />
                             <span>
-                              Entrar com o Facebook
+                              Criar com o Facebook
                             </span>
                           </Button>
                         </Col>
-                        <Col>
+                        <Col
+                          size={6}
+                        >
                           <Button
                             color="form"
                           >
                             <Icon
-                              name="sign-in"
+                              name="user"
                             />
                             <span>
-                              Entrar
+                              Criar conta
                             </span>
                           </Button>
                         </Col>
@@ -971,7 +1205,7 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "function",
                       "props": Object {
-                        "autocorrect": "off",
+                        "autoCorrect": "off",
                         "name": "email",
                         "placeholder": "Digite seu e-mail",
                         "type": "email",
@@ -985,9 +1219,23 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "function",
                       "props": Object {
-                        "autocomplete": "off",
+                        "autoComplete": "off",
                         "name": "password",
-                        "placeholder": "Digite sua senha",
+                        "placeholder": "Escolha sua senha",
+                        "type": "password",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "autoComplete": "off",
+                        "name": "password",
+                        "placeholder": "Confirme sua senha",
                         "type": "password",
                       },
                       "ref": null,
@@ -1000,7 +1248,9 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "children": Array [
-                          <Col>
+                          <Col
+                            size={6}
+                          >
                             <Button
                               color="facebook"
                               type="button"
@@ -1009,19 +1259,21 @@ ShallowWrapper {
                                 name="facebook"
                               />
                               <span>
-                                Entrar com o Facebook
+                                Criar com o Facebook
                               </span>
                             </Button>
                           </Col>,
-                          <Col>
+                          <Col
+                            size={6}
+                          >
                             <Button
                               color="form"
                             >
                               <Icon
-                                name="sign-in"
+                                name="user"
                               />
                               <span>
-                                Entrar
+                                Criar conta
                               </span>
                             </Button>
                           </Col>,
@@ -1043,9 +1295,10 @@ ShallowWrapper {
                                 name="facebook"
                               />
                               <span>
-                                Entrar com o Facebook
+                                Criar com o Facebook
                               </span>
                             </Button>,
+                            "size": 6,
                           },
                           "ref": null,
                           "rendered": Object {
@@ -1058,7 +1311,7 @@ ShallowWrapper {
                                   name="facebook"
                                 />,
                                 <span>
-                                  Entrar com o Facebook
+                                  Criar com o Facebook
                                 </span>,
                               ],
                               "color": "facebook",
@@ -1082,10 +1335,10 @@ ShallowWrapper {
                                 "key": undefined,
                                 "nodeType": "host",
                                 "props": Object {
-                                  "children": "Entrar com o Facebook",
+                                  "children": "Criar com o Facebook",
                                 },
                                 "ref": null,
-                                "rendered": "Entrar com o Facebook",
+                                "rendered": "Criar com o Facebook",
                                 "type": "span",
                               },
                             ],
@@ -1102,12 +1355,13 @@ ShallowWrapper {
                               color="form"
                             >
                               <Icon
-                                name="sign-in"
+                                name="user"
                               />
                               <span>
-                                Entrar
+                                Criar conta
                               </span>
                             </Button>,
+                            "size": 6,
                           },
                           "ref": null,
                           "rendered": Object {
@@ -1117,10 +1371,10 @@ ShallowWrapper {
                             "props": Object {
                               "children": Array [
                                 <Icon
-                                  name="sign-in"
+                                  name="user"
                                 />,
                                 <span>
-                                  Entrar
+                                  Criar conta
                                 </span>,
                               ],
                               "color": "form",
@@ -1132,7 +1386,7 @@ ShallowWrapper {
                                 "key": undefined,
                                 "nodeType": "function",
                                 "props": Object {
-                                  "name": "sign-in",
+                                  "name": "user",
                                 },
                                 "ref": null,
                                 "rendered": null,
@@ -1143,10 +1397,10 @@ ShallowWrapper {
                                 "key": undefined,
                                 "nodeType": "host",
                                 "props": Object {
-                                  "children": "Entrar",
+                                  "children": "Criar conta",
                                 },
                                 "ref": null,
-                                "rendered": "Entrar",
+                                "rendered": "Criar conta",
                                 "type": "span",
                               },
                             ],
@@ -1170,15 +1424,24 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": <p
+              "children": <div
                 style={
                   Object {
                     "padding": "30px 0",
                   }
                 }
               >
-                Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
-              </p>,
+                <div>
+                  Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+                </div>
+                <br />
+                <div>
+                  <span>
+                    Este convite expira em: 
+                  </span>
+                  <Countdown />
+                </div>
+              </div>,
               "size": 5,
             },
             "ref": null,
@@ -1187,14 +1450,83 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
+                "children": Array [
+                  <div>
+                    Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+                  </div>,
+                  <br />,
+                  <div>
+                    <span>
+                      Este convite expira em: 
+                    </span>
+                    <Countdown />
+                  </div>,
+                ],
                 "style": Object {
                   "padding": "30px 0",
                 },
               },
               "ref": null,
-              "rendered": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
-              "type": "p",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
+                  },
+                  "ref": null,
+                  "rendered": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span>
+                        Este convite expira em: 
+                      </span>,
+                      <Countdown />,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Este convite expira em: ",
+                      },
+                      "ref": null,
+                      "rendered": "Este convite expira em: ",
+                      "type": "span",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
             },
             "type": [Function],
           },
