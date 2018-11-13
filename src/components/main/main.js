@@ -32,7 +32,7 @@ const Main = () => (
         </Card>
       </Col>
       <Col>
-        <p style={{ padding: '30px' }}>
+        <p style={{ padding: '30px 0' }}>
           Você foi convidado a participar da mais inovadora ferramenta de mídia
           para micro-influenciadores nas redes sociais.
         </p>
