@@ -1,6 +1,7 @@
 {
   "name": "talkative-test",
   "version": "0.1.0",
+  "homepage": "https://williamnerdy.github.io/talkative-test",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
