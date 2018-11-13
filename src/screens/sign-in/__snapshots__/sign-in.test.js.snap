@@ -1,0 +1,1379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SignIn /> should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SignIn />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": <Row
+        reverse={true}
+      >
+        <Col
+          size={7}
+        >
+          <Card>
+            <Title
+              color="default"
+              style={
+                Object {
+                  "textAlign": "center",
+                }
+              }
+            >
+              Sua primeira tarefa é preencher seus dados de acesso:
+            </Title>
+            <Form>
+              <Input
+                autoCorrect="off"
+                name="email"
+                placeholder="Digite seu e-mail"
+                type="email"
+              />
+              <Input
+                autoComplete="off"
+                name="password"
+                placeholder="Digite sua senha"
+                type="password"
+              />
+              <Row
+                reverse={false}
+              >
+                <Col
+                  size={6}
+                >
+                  <Button
+                    color="facebook"
+                    type="button"
+                  >
+                    <Icon
+                      name="facebook"
+                    />
+                    <span>
+                      Entrar com o Facebook
+                    </span>
+                  </Button>
+                </Col>
+                <Col
+                  size={6}
+                >
+                  <Button
+                    color="form"
+                  >
+                    <Icon
+                      name="sign-in"
+                    />
+                    <span>
+                      Entrar
+                    </span>
+                  </Button>
+                </Col>
+              </Row>
+              <br />
+              <Link
+                to="//example.com"
+              >
+                Esqueci minha senha
+              </Link>
+            </Form>
+          </Card>
+        </Col>
+        <Col
+          size={5}
+        >
+          <p
+            style={
+              Object {
+                "padding": "30px 0",
+              }
+            }
+          >
+            Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+          </p>
+        </Col>
+      </Row>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Col
+            size={7}
+          >
+            <Card>
+              <Title
+                color="default"
+                style={
+                  Object {
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Sua primeira tarefa é preencher seus dados de acesso:
+              </Title>
+              <Form>
+                <Input
+                  autoCorrect="off"
+                  name="email"
+                  placeholder="Digite seu e-mail"
+                  type="email"
+                />
+                <Input
+                  autoComplete="off"
+                  name="password"
+                  placeholder="Digite sua senha"
+                  type="password"
+                />
+                <Row
+                  reverse={false}
+                >
+                  <Col
+                    size={6}
+                  >
+                    <Button
+                      color="facebook"
+                      type="button"
+                    >
+                      <Icon
+                        name="facebook"
+                      />
+                      <span>
+                        Entrar com o Facebook
+                      </span>
+                    </Button>
+                  </Col>
+                  <Col
+                    size={6}
+                  >
+                    <Button
+                      color="form"
+                    >
+                      <Icon
+                        name="sign-in"
+                      />
+                      <span>
+                        Entrar
+                      </span>
+                    </Button>
+                  </Col>
+                </Row>
+                <br />
+                <Link
+                  to="//example.com"
+                >
+                  Esqueci minha senha
+                </Link>
+              </Form>
+            </Card>
+          </Col>,
+          <Col
+            size={5}
+          >
+            <p
+              style={
+                Object {
+                  "padding": "30px 0",
+                }
+              }
+            >
+              Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+            </p>
+          </Col>,
+        ],
+        "reverse": true,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Card>
+              <Title
+                color="default"
+                style={
+                  Object {
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Sua primeira tarefa é preencher seus dados de acesso:
+              </Title>
+              <Form>
+                <Input
+                  autoCorrect="off"
+                  name="email"
+                  placeholder="Digite seu e-mail"
+                  type="email"
+                />
+                <Input
+                  autoComplete="off"
+                  name="password"
+                  placeholder="Digite sua senha"
+                  type="password"
+                />
+                <Row
+                  reverse={false}
+                >
+                  <Col
+                    size={6}
+                  >
+                    <Button
+                      color="facebook"
+                      type="button"
+                    >
+                      <Icon
+                        name="facebook"
+                      />
+                      <span>
+                        Entrar com o Facebook
+                      </span>
+                    </Button>
+                  </Col>
+                  <Col
+                    size={6}
+                  >
+                    <Button
+                      color="form"
+                    >
+                      <Icon
+                        name="sign-in"
+                      />
+                      <span>
+                        Entrar
+                      </span>
+                    </Button>
+                  </Col>
+                </Row>
+                <br />
+                <Link
+                  to="//example.com"
+                >
+                  Esqueci minha senha
+                </Link>
+              </Form>
+            </Card>,
+            "size": 7,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <Title
+                  color="default"
+                  style={
+                    Object {
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Sua primeira tarefa é preencher seus dados de acesso:
+                </Title>,
+                <Form>
+                  <Input
+                    autoCorrect="off"
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                    type="email"
+                  />
+                  <Input
+                    autoComplete="off"
+                    name="password"
+                    placeholder="Digite sua senha"
+                    type="password"
+                  />
+                  <Row
+                    reverse={false}
+                  >
+                    <Col
+                      size={6}
+                    >
+                      <Button
+                        color="facebook"
+                        type="button"
+                      >
+                        <Icon
+                          name="facebook"
+                        />
+                        <span>
+                          Entrar com o Facebook
+                        </span>
+                      </Button>
+                    </Col>
+                    <Col
+                      size={6}
+                    >
+                      <Button
+                        color="form"
+                      >
+                        <Icon
+                          name="sign-in"
+                        />
+                        <span>
+                          Entrar
+                        </span>
+                      </Button>
+                    </Col>
+                  </Row>
+                  <br />
+                  <Link
+                    to="//example.com"
+                  >
+                    Esqueci minha senha
+                  </Link>
+                </Form>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Sua primeira tarefa é preencher seus dados de acesso:",
+                  "color": "default",
+                  "style": Object {
+                    "textAlign": "center",
+                  },
+                },
+                "ref": null,
+                "rendered": "Sua primeira tarefa é preencher seus dados de acesso:",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    <Input
+                      autoCorrect="off"
+                      name="email"
+                      placeholder="Digite seu e-mail"
+                      type="email"
+                    />,
+                    <Input
+                      autoComplete="off"
+                      name="password"
+                      placeholder="Digite sua senha"
+                      type="password"
+                    />,
+                    <Row
+                      reverse={false}
+                    >
+                      <Col
+                        size={6}
+                      >
+                        <Button
+                          color="facebook"
+                          type="button"
+                        >
+                          <Icon
+                            name="facebook"
+                          />
+                          <span>
+                            Entrar com o Facebook
+                          </span>
+                        </Button>
+                      </Col>
+                      <Col
+                        size={6}
+                      >
+                        <Button
+                          color="form"
+                        >
+                          <Icon
+                            name="sign-in"
+                          />
+                          <span>
+                            Entrar
+                          </span>
+                        </Button>
+                      </Col>
+                    </Row>,
+                    <br />,
+                    <Link
+                      to="//example.com"
+                    >
+                      Esqueci minha senha
+                    </Link>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "autoCorrect": "off",
+                      "name": "email",
+                      "placeholder": "Digite seu e-mail",
+                      "type": "email",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "autoComplete": "off",
+                      "name": "password",
+                      "placeholder": "Digite sua senha",
+                      "type": "password",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": Array [
+                        <Col
+                          size={6}
+                        >
+                          <Button
+                            color="facebook"
+                            type="button"
+                          >
+                            <Icon
+                              name="facebook"
+                            />
+                            <span>
+                              Entrar com o Facebook
+                            </span>
+                          </Button>
+                        </Col>,
+                        <Col
+                          size={6}
+                        >
+                          <Button
+                            color="form"
+                          >
+                            <Icon
+                              name="sign-in"
+                            />
+                            <span>
+                              Entrar
+                            </span>
+                          </Button>
+                        </Col>,
+                      ],
+                      "reverse": false,
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": <Button
+                            color="facebook"
+                            type="button"
+                          >
+                            <Icon
+                              name="facebook"
+                            />
+                            <span>
+                              Entrar com o Facebook
+                            </span>
+                          </Button>,
+                          "size": 6,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "children": Array [
+                              <Icon
+                                name="facebook"
+                              />,
+                              <span>
+                                Entrar com o Facebook
+                              </span>,
+                            ],
+                            "color": "facebook",
+                            "type": "button",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "function",
+                              "props": Object {
+                                "name": "facebook",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": [Function],
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Entrar com o Facebook",
+                              },
+                              "ref": null,
+                              "rendered": "Entrar com o Facebook",
+                              "type": "span",
+                            },
+                          ],
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "children": <Button
+                            color="form"
+                          >
+                            <Icon
+                              name="sign-in"
+                            />
+                            <span>
+                              Entrar
+                            </span>
+                          </Button>,
+                          "size": 6,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "children": Array [
+                              <Icon
+                                name="sign-in"
+                              />,
+                              <span>
+                                Entrar
+                              </span>,
+                            ],
+                            "color": "form",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "function",
+                              "props": Object {
+                                "name": "sign-in",
+                              },
+                              "ref": null,
+                              "rendered": null,
+                              "type": [Function],
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Entrar",
+                              },
+                              "ref": null,
+                              "rendered": "Entrar",
+                              "type": "span",
+                            },
+                          ],
+                          "type": [Function],
+                        },
+                        "type": [Function],
+                      },
+                    ],
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "Esqueci minha senha",
+                      "to": "//example.com",
+                    },
+                    "ref": null,
+                    "rendered": "Esqueci minha senha",
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <p
+              style={
+                Object {
+                  "padding": "30px 0",
+                }
+              }
+            >
+              Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+            </p>,
+            "size": 5,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
+              "style": Object {
+                "padding": "30px 0",
+              },
+            },
+            "ref": null,
+            "rendered": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
+            "type": "p",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Row
+          reverse={true}
+        >
+          <Col
+            size={7}
+          >
+            <Card>
+              <Title
+                color="default"
+                style={
+                  Object {
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Sua primeira tarefa é preencher seus dados de acesso:
+              </Title>
+              <Form>
+                <Input
+                  autoCorrect="off"
+                  name="email"
+                  placeholder="Digite seu e-mail"
+                  type="email"
+                />
+                <Input
+                  autoComplete="off"
+                  name="password"
+                  placeholder="Digite sua senha"
+                  type="password"
+                />
+                <Row
+                  reverse={false}
+                >
+                  <Col
+                    size={6}
+                  >
+                    <Button
+                      color="facebook"
+                      type="button"
+                    >
+                      <Icon
+                        name="facebook"
+                      />
+                      <span>
+                        Entrar com o Facebook
+                      </span>
+                    </Button>
+                  </Col>
+                  <Col
+                    size={6}
+                  >
+                    <Button
+                      color="form"
+                    >
+                      <Icon
+                        name="sign-in"
+                      />
+                      <span>
+                        Entrar
+                      </span>
+                    </Button>
+                  </Col>
+                </Row>
+                <br />
+                <Link
+                  to="//example.com"
+                >
+                  Esqueci minha senha
+                </Link>
+              </Form>
+            </Card>
+          </Col>
+          <Col
+            size={5}
+          >
+            <p
+              style={
+                Object {
+                  "padding": "30px 0",
+                }
+              }
+            >
+              Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+            </p>
+          </Col>
+        </Row>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Col
+              size={7}
+            >
+              <Card>
+                <Title
+                  color="default"
+                  style={
+                    Object {
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Sua primeira tarefa é preencher seus dados de acesso:
+                </Title>
+                <Form>
+                  <Input
+                    autoCorrect="off"
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                    type="email"
+                  />
+                  <Input
+                    autoComplete="off"
+                    name="password"
+                    placeholder="Digite sua senha"
+                    type="password"
+                  />
+                  <Row
+                    reverse={false}
+                  >
+                    <Col
+                      size={6}
+                    >
+                      <Button
+                        color="facebook"
+                        type="button"
+                      >
+                        <Icon
+                          name="facebook"
+                        />
+                        <span>
+                          Entrar com o Facebook
+                        </span>
+                      </Button>
+                    </Col>
+                    <Col
+                      size={6}
+                    >
+                      <Button
+                        color="form"
+                      >
+                        <Icon
+                          name="sign-in"
+                        />
+                        <span>
+                          Entrar
+                        </span>
+                      </Button>
+                    </Col>
+                  </Row>
+                  <br />
+                  <Link
+                    to="//example.com"
+                  >
+                    Esqueci minha senha
+                  </Link>
+                </Form>
+              </Card>
+            </Col>,
+            <Col
+              size={5}
+            >
+              <p
+                style={
+                  Object {
+                    "padding": "30px 0",
+                  }
+                }
+              >
+                Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+              </p>
+            </Col>,
+          ],
+          "reverse": true,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Card>
+                <Title
+                  color="default"
+                  style={
+                    Object {
+                      "textAlign": "center",
+                    }
+                  }
+                >
+                  Sua primeira tarefa é preencher seus dados de acesso:
+                </Title>
+                <Form>
+                  <Input
+                    autoCorrect="off"
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                    type="email"
+                  />
+                  <Input
+                    autoComplete="off"
+                    name="password"
+                    placeholder="Digite sua senha"
+                    type="password"
+                  />
+                  <Row
+                    reverse={false}
+                  >
+                    <Col
+                      size={6}
+                    >
+                      <Button
+                        color="facebook"
+                        type="button"
+                      >
+                        <Icon
+                          name="facebook"
+                        />
+                        <span>
+                          Entrar com o Facebook
+                        </span>
+                      </Button>
+                    </Col>
+                    <Col
+                      size={6}
+                    >
+                      <Button
+                        color="form"
+                      >
+                        <Icon
+                          name="sign-in"
+                        />
+                        <span>
+                          Entrar
+                        </span>
+                      </Button>
+                    </Col>
+                  </Row>
+                  <br />
+                  <Link
+                    to="//example.com"
+                  >
+                    Esqueci minha senha
+                  </Link>
+                </Form>
+              </Card>,
+              "size": 7,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Title
+                    color="default"
+                    style={
+                      Object {
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    Sua primeira tarefa é preencher seus dados de acesso:
+                  </Title>,
+                  <Form>
+                    <Input
+                      autoCorrect="off"
+                      name="email"
+                      placeholder="Digite seu e-mail"
+                      type="email"
+                    />
+                    <Input
+                      autoComplete="off"
+                      name="password"
+                      placeholder="Digite sua senha"
+                      type="password"
+                    />
+                    <Row
+                      reverse={false}
+                    >
+                      <Col
+                        size={6}
+                      >
+                        <Button
+                          color="facebook"
+                          type="button"
+                        >
+                          <Icon
+                            name="facebook"
+                          />
+                          <span>
+                            Entrar com o Facebook
+                          </span>
+                        </Button>
+                      </Col>
+                      <Col
+                        size={6}
+                      >
+                        <Button
+                          color="form"
+                        >
+                          <Icon
+                            name="sign-in"
+                          />
+                          <span>
+                            Entrar
+                          </span>
+                        </Button>
+                      </Col>
+                    </Row>
+                    <br />
+                    <Link
+                      to="//example.com"
+                    >
+                      Esqueci minha senha
+                    </Link>
+                  </Form>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Sua primeira tarefa é preencher seus dados de acesso:",
+                    "color": "default",
+                    "style": Object {
+                      "textAlign": "center",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "Sua primeira tarefa é preencher seus dados de acesso:",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      <Input
+                        autoCorrect="off"
+                        name="email"
+                        placeholder="Digite seu e-mail"
+                        type="email"
+                      />,
+                      <Input
+                        autoComplete="off"
+                        name="password"
+                        placeholder="Digite sua senha"
+                        type="password"
+                      />,
+                      <Row
+                        reverse={false}
+                      >
+                        <Col
+                          size={6}
+                        >
+                          <Button
+                            color="facebook"
+                            type="button"
+                          >
+                            <Icon
+                              name="facebook"
+                            />
+                            <span>
+                              Entrar com o Facebook
+                            </span>
+                          </Button>
+                        </Col>
+                        <Col
+                          size={6}
+                        >
+                          <Button
+                            color="form"
+                          >
+                            <Icon
+                              name="sign-in"
+                            />
+                            <span>
+                              Entrar
+                            </span>
+                          </Button>
+                        </Col>
+                      </Row>,
+                      <br />,
+                      <Link
+                        to="//example.com"
+                      >
+                        Esqueci minha senha
+                      </Link>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "autoCorrect": "off",
+                        "name": "email",
+                        "placeholder": "Digite seu e-mail",
+                        "type": "email",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "autoComplete": "off",
+                        "name": "password",
+                        "placeholder": "Digite sua senha",
+                        "type": "password",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": Array [
+                          <Col
+                            size={6}
+                          >
+                            <Button
+                              color="facebook"
+                              type="button"
+                            >
+                              <Icon
+                                name="facebook"
+                              />
+                              <span>
+                                Entrar com o Facebook
+                              </span>
+                            </Button>
+                          </Col>,
+                          <Col
+                            size={6}
+                          >
+                            <Button
+                              color="form"
+                            >
+                              <Icon
+                                name="sign-in"
+                              />
+                              <span>
+                                Entrar
+                              </span>
+                            </Button>
+                          </Col>,
+                        ],
+                        "reverse": false,
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "children": <Button
+                              color="facebook"
+                              type="button"
+                            >
+                              <Icon
+                                name="facebook"
+                              />
+                              <span>
+                                Entrar com o Facebook
+                              </span>
+                            </Button>,
+                            "size": 6,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "children": Array [
+                                <Icon
+                                  name="facebook"
+                                />,
+                                <span>
+                                  Entrar com o Facebook
+                                </span>,
+                              ],
+                              "color": "facebook",
+                              "type": "button",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "function",
+                                "props": Object {
+                                  "name": "facebook",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": [Function],
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "Entrar com o Facebook",
+                                },
+                                "ref": null,
+                                "rendered": "Entrar com o Facebook",
+                                "type": "span",
+                              },
+                            ],
+                            "type": [Function],
+                          },
+                          "type": [Function],
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "function",
+                          "props": Object {
+                            "children": <Button
+                              color="form"
+                            >
+                              <Icon
+                                name="sign-in"
+                              />
+                              <span>
+                                Entrar
+                              </span>
+                            </Button>,
+                            "size": 6,
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "function",
+                            "props": Object {
+                              "children": Array [
+                                <Icon
+                                  name="sign-in"
+                                />,
+                                <span>
+                                  Entrar
+                                </span>,
+                              ],
+                              "color": "form",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "function",
+                                "props": Object {
+                                  "name": "sign-in",
+                                },
+                                "ref": null,
+                                "rendered": null,
+                                "type": [Function],
+                              },
+                              Object {
+                                "instance": null,
+                                "key": undefined,
+                                "nodeType": "host",
+                                "props": Object {
+                                  "children": "Entrar",
+                                },
+                                "ref": null,
+                                "rendered": "Entrar",
+                                "type": "span",
+                              },
+                            ],
+                            "type": [Function],
+                          },
+                          "type": [Function],
+                        },
+                      ],
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "br",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "Esqueci minha senha",
+                        "to": "//example.com",
+                      },
+                      "ref": null,
+                      "rendered": "Esqueci minha senha",
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <p
+                style={
+                  Object {
+                    "padding": "30px 0",
+                  }
+                }
+              >
+                Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.
+              </p>,
+              "size": 5,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
+                "style": Object {
+                  "padding": "30px 0",
+                },
+              },
+              "ref": null,
+              "rendered": "Você foi convidado a participar da mais inovadora ferramenta de mídia para micro-influenciadores nas redes sociais.",
+              "type": "p",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
