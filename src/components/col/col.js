@@ -6,12 +6,8 @@ const Col = props => (
   <div className={`col col-${props.size}`}>{props.children}</div>
 );
 
-Col.defaultProps = {
-  size: 12
-};
-
 Col.propTypes = {
-  size: PropTypes.oneOf([12, 6, 4]),
+  size: PropTypes.oneOf([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]),
   children: PropTypes.node
 };
 
