@@ -1,0 +1,15 @@
+.input {
+  display: block;
+  padding: 10px;
+  font: inherit;
+  color: #00bc9b;
+  border: solid 1px #d6d9e0;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-appearance: textfield;
+}
+
+.input::placeholder {
+  color: #bbbec4;
+  opacity: 1;
+}
