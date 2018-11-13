@@ -1,12 +1,20 @@
 .input {
   display: block;
+  width: 100%;
   padding: 10px;
-  font: inherit;
+  margin: 10px;
+  font-family: inherit;
   color: #00bc9b;
   border: solid 1px #d6d9e0;
   background: #fff;
   border-radius: 5px;
   -webkit-appearance: textfield;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #00bc9b;
+  box-shadow: 0 0 10px rgba(0, 188, 155, 0.6);
 }
 
 .input::placeholder {
