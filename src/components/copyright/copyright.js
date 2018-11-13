@@ -1,7 +1,11 @@
 import React from 'react';
 
 const Copyright = () => (
-  <div>® Mobify é uma ferramenta Talkative by Wololo Tech</div>
+  <div>
+    <span>® Mobify é uma ferramenta</span>
+    <br />
+    <span>Talkative by Wololo Tech</span>
+  </div>
 );
 
 export default Copyright;
