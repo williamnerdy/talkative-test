@@ -1,0 +1,28 @@
+.button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  transition: background 200ms;
+}
+
+.button.form {
+  background: #00bc9b;
+}
+
+.button.form:hover {
+  background: #1696e1;
+}
+
+.button.facebook {
+  background: #3a589b;
+}
+
+.button.facebook:hover {
+  background: #5170b5;
+}

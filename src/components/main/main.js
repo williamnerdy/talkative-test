@@ -6,6 +6,7 @@ import Card from '../card';
 import Title from '../title';
 import Form from '../form';
 import Input from '../input';
+import Button from '../button';
 
 const Main = () => (
   <Container>
@@ -28,6 +29,18 @@ const Main = () => (
               placeholder="Digite sua senha"
               autocomplete="off"
             />
+            <Row>
+              <Col>
+                <Button color="facebook" type="button">
+                  <span>Entrar com o Facebook</span>
+                </Button>
+              </Col>
+              <Col>
+                <Button color="form">
+                  <span>Entrar</span>
+                </Button>
+              </Col>
+            </Row>
           </Form>
         </Card>
       </Col>
