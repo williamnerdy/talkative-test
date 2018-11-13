@@ -1,4 +1,4 @@
-# talkative test
+# talkative test [![Build Status](https://travis-ci.org/williamnerdy/lunax-panel-base.svg?branch=master)](https://travis-ci.org/williamnerdy/lunax-panel-base)
 
 Baixe o repositório e instale as dependências:
 
