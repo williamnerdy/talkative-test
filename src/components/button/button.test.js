@@ -4,7 +4,7 @@ import Button from './button';
 
 describe('<Button />', () => {
   it('should render correctly', () => {
-    const wrapper = shallow(<Button />);
+    const wrapper = shallow(<Button color="facebook" />);
     expect(wrapper).toMatchSnapshot();
   });
 });

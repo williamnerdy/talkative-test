@@ -10,7 +10,7 @@ const Button = ({ children, color, ...props }) => (
 
 Button.propTypes = {
   color: PropTypes.oneOf(['form', 'facebook']).isRequired,
-  children: PropTypes.string
+  children: PropTypes.oneOfType([PropTypes.string, PropTypes.node])
 };
 
 export default Button;
