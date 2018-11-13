@@ -24,12 +24,12 @@ ShallowWrapper {
           <Col
             size={4}
           >
-            Footer left
+            <Logo />
           </Col>
           <Col
             size={4}
           >
-            Footer right
+            <Copyright />
           </Col>
           <Col
             size={4}
@@ -52,12 +52,12 @@ ShallowWrapper {
           <Col
             size={4}
           >
-            Footer left
+            <Logo />
           </Col>
           <Col
             size={4}
           >
-            Footer right
+            <Copyright />
           </Col>
           <Col
             size={4}
@@ -76,12 +76,12 @@ ShallowWrapper {
             <Col
               size={4}
             >
-              Footer left
+              <Logo />
             </Col>,
             <Col
               size={4}
             >
-              Footer right
+              <Copyright />
             </Col>,
             <Col
               size={4}
@@ -98,11 +98,19 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": "Footer left",
+              "children": <Logo />,
               "size": 4,
             },
             "ref": null,
-            "rendered": "Footer left",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
             "type": [Function],
           },
           Object {
@@ -110,11 +118,19 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": "Footer right",
+              "children": <Copyright />,
               "size": 4,
             },
             "ref": null,
-            "rendered": "Footer right",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
             "type": [Function],
           },
           Object {
@@ -149,12 +165,12 @@ ShallowWrapper {
             <Col
               size={4}
             >
-              Footer left
+              <Logo />
             </Col>
             <Col
               size={4}
             >
-              Footer right
+              <Copyright />
             </Col>
             <Col
               size={4}
@@ -177,12 +193,12 @@ ShallowWrapper {
             <Col
               size={4}
             >
-              Footer left
+              <Logo />
             </Col>
             <Col
               size={4}
             >
-              Footer right
+              <Copyright />
             </Col>
             <Col
               size={4}
@@ -201,12 +217,12 @@ ShallowWrapper {
               <Col
                 size={4}
               >
-                Footer left
+                <Logo />
               </Col>,
               <Col
                 size={4}
               >
-                Footer right
+                <Copyright />
               </Col>,
               <Col
                 size={4}
@@ -223,11 +239,19 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "children": "Footer left",
+                "children": <Logo />,
                 "size": 4,
               },
               "ref": null,
-              "rendered": "Footer left",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
               "type": [Function],
             },
             Object {
@@ -235,11 +259,19 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "children": "Footer right",
+                "children": <Copyright />,
                 "size": 4,
               },
               "ref": null,
-              "rendered": "Footer right",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
               "type": [Function],
             },
             Object {
