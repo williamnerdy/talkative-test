@@ -9,7 +9,7 @@ const Header = () => (
   <header className="header">
     <Container>
       <Row>
-        <Col size={6}>
+        <Col size={5}>
           <Title color="white" style={{ fontSize: '36px' }}>
             Sua voz será ouvida e recompensada
           </Title>
