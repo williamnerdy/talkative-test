@@ -19,7 +19,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Header />,
-        <Main />,
+        <Routes />,
         <Footer />,
       ],
     },
@@ -63,7 +63,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Header />,
-          <Main />,
+          <Routes />,
           <Footer />,
         ],
       },

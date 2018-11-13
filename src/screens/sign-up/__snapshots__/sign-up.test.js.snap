@@ -34,24 +34,35 @@ ShallowWrapper {
             >
               Para validar seu convite é preciso cadastrar os seguintes dados:
             </Title>
-            <Form>
+            <Form
+              onSubmit={[Function]}
+            >
               <Input
                 autoCorrect="off"
                 name="email"
+                onChange={[Function]}
                 placeholder="Digite seu e-mail"
+                required={true}
                 type="email"
+                value=""
               />
               <Input
                 autoComplete="off"
-                name="password"
+                name="password1"
+                onChange={[Function]}
                 placeholder="Escolha sua senha"
+                required={true}
                 type="password"
+                value=""
               />
               <Input
                 autoComplete="off"
-                name="password"
+                name="password2"
+                onChange={[Function]}
                 placeholder="Confirme sua senha"
+                required={true}
                 type="password"
+                value=""
               />
               <Row
                 reverse={false}
@@ -134,24 +145,35 @@ ShallowWrapper {
               >
                 Para validar seu convite é preciso cadastrar os seguintes dados:
               </Title>
-              <Form>
+              <Form
+                onSubmit={[Function]}
+              >
                 <Input
                   autoCorrect="off"
                   name="email"
+                  onChange={[Function]}
                   placeholder="Digite seu e-mail"
+                  required={true}
                   type="email"
+                  value=""
                 />
                 <Input
                   autoComplete="off"
-                  name="password"
+                  name="password1"
+                  onChange={[Function]}
                   placeholder="Escolha sua senha"
+                  required={true}
                   type="password"
+                  value=""
                 />
                 <Input
                   autoComplete="off"
-                  name="password"
+                  name="password2"
+                  onChange={[Function]}
                   placeholder="Confirme sua senha"
+                  required={true}
                   type="password"
+                  value=""
                 />
                 <Row
                   reverse={false}
@@ -232,24 +254,35 @@ ShallowWrapper {
               >
                 Para validar seu convite é preciso cadastrar os seguintes dados:
               </Title>
-              <Form>
+              <Form
+                onSubmit={[Function]}
+              >
                 <Input
                   autoCorrect="off"
                   name="email"
+                  onChange={[Function]}
                   placeholder="Digite seu e-mail"
+                  required={true}
                   type="email"
+                  value=""
                 />
                 <Input
                   autoComplete="off"
-                  name="password"
+                  name="password1"
+                  onChange={[Function]}
                   placeholder="Escolha sua senha"
+                  required={true}
                   type="password"
+                  value=""
                 />
                 <Input
                   autoComplete="off"
-                  name="password"
+                  name="password2"
+                  onChange={[Function]}
                   placeholder="Confirme sua senha"
+                  required={true}
                   type="password"
+                  value=""
                 />
                 <Row
                   reverse={false}
@@ -305,24 +338,35 @@ ShallowWrapper {
                 >
                   Para validar seu convite é preciso cadastrar os seguintes dados:
                 </Title>,
-                <Form>
+                <Form
+                  onSubmit={[Function]}
+                >
                   <Input
                     autoCorrect="off"
                     name="email"
+                    onChange={[Function]}
                     placeholder="Digite seu e-mail"
+                    required={true}
                     type="email"
+                    value=""
                   />
                   <Input
                     autoComplete="off"
-                    name="password"
+                    name="password1"
+                    onChange={[Function]}
                     placeholder="Escolha sua senha"
+                    required={true}
                     type="password"
+                    value=""
                   />
                   <Input
                     autoComplete="off"
-                    name="password"
+                    name="password2"
+                    onChange={[Function]}
                     placeholder="Confirme sua senha"
+                    required={true}
                     type="password"
+                    value=""
                   />
                   <Row
                     reverse={false}
@@ -386,20 +430,29 @@ ShallowWrapper {
                     <Input
                       autoCorrect="off"
                       name="email"
+                      onChange={[Function]}
                       placeholder="Digite seu e-mail"
+                      required={true}
                       type="email"
+                      value=""
                     />,
                     <Input
                       autoComplete="off"
-                      name="password"
+                      name="password1"
+                      onChange={[Function]}
                       placeholder="Escolha sua senha"
+                      required={true}
                       type="password"
+                      value=""
                     />,
                     <Input
                       autoComplete="off"
-                      name="password"
+                      name="password2"
+                      onChange={[Function]}
                       placeholder="Confirme sua senha"
+                      required={true}
                       type="password"
+                      value=""
                     />,
                     <Row
                       reverse={false}
@@ -435,6 +488,7 @@ ShallowWrapper {
                       </Col>
                     </Row>,
                   ],
+                  "onSubmit": [Function],
                 },
                 "ref": null,
                 "rendered": Array [
@@ -445,8 +499,11 @@ ShallowWrapper {
                     "props": Object {
                       "autoCorrect": "off",
                       "name": "email",
+                      "onChange": [Function],
                       "placeholder": "Digite seu e-mail",
+                      "required": true,
                       "type": "email",
+                      "value": "",
                     },
                     "ref": null,
                     "rendered": null,
@@ -458,9 +515,12 @@ ShallowWrapper {
                     "nodeType": "function",
                     "props": Object {
                       "autoComplete": "off",
-                      "name": "password",
+                      "name": "password1",
+                      "onChange": [Function],
                       "placeholder": "Escolha sua senha",
+                      "required": true,
                       "type": "password",
+                      "value": "",
                     },
                     "ref": null,
                     "rendered": null,
@@ -472,9 +532,12 @@ ShallowWrapper {
                     "nodeType": "function",
                     "props": Object {
                       "autoComplete": "off",
-                      "name": "password",
+                      "name": "password2",
+                      "onChange": [Function],
                       "placeholder": "Confirme sua senha",
+                      "required": true,
                       "type": "password",
+                      "value": "",
                     },
                     "ref": null,
                     "rendered": null,
@@ -796,24 +859,35 @@ ShallowWrapper {
               >
                 Para validar seu convite é preciso cadastrar os seguintes dados:
               </Title>
-              <Form>
+              <Form
+                onSubmit={[Function]}
+              >
                 <Input
                   autoCorrect="off"
                   name="email"
+                  onChange={[Function]}
                   placeholder="Digite seu e-mail"
+                  required={true}
                   type="email"
+                  value=""
                 />
                 <Input
                   autoComplete="off"
-                  name="password"
+                  name="password1"
+                  onChange={[Function]}
                   placeholder="Escolha sua senha"
+                  required={true}
                   type="password"
+                  value=""
                 />
                 <Input
                   autoComplete="off"
-                  name="password"
+                  name="password2"
+                  onChange={[Function]}
                   placeholder="Confirme sua senha"
+                  required={true}
                   type="password"
+                  value=""
                 />
                 <Row
                   reverse={false}
@@ -896,24 +970,35 @@ ShallowWrapper {
                 >
                   Para validar seu convite é preciso cadastrar os seguintes dados:
                 </Title>
-                <Form>
+                <Form
+                  onSubmit={[Function]}
+                >
                   <Input
                     autoCorrect="off"
                     name="email"
+                    onChange={[Function]}
                     placeholder="Digite seu e-mail"
+                    required={true}
                     type="email"
+                    value=""
                   />
                   <Input
                     autoComplete="off"
-                    name="password"
+                    name="password1"
+                    onChange={[Function]}
                     placeholder="Escolha sua senha"
+                    required={true}
                     type="password"
+                    value=""
                   />
                   <Input
                     autoComplete="off"
-                    name="password"
+                    name="password2"
+                    onChange={[Function]}
                     placeholder="Confirme sua senha"
+                    required={true}
                     type="password"
+                    value=""
                   />
                   <Row
                     reverse={false}
@@ -994,24 +1079,35 @@ ShallowWrapper {
                 >
                   Para validar seu convite é preciso cadastrar os seguintes dados:
                 </Title>
-                <Form>
+                <Form
+                  onSubmit={[Function]}
+                >
                   <Input
                     autoCorrect="off"
                     name="email"
+                    onChange={[Function]}
                     placeholder="Digite seu e-mail"
+                    required={true}
                     type="email"
+                    value=""
                   />
                   <Input
                     autoComplete="off"
-                    name="password"
+                    name="password1"
+                    onChange={[Function]}
                     placeholder="Escolha sua senha"
+                    required={true}
                     type="password"
+                    value=""
                   />
                   <Input
                     autoComplete="off"
-                    name="password"
+                    name="password2"
+                    onChange={[Function]}
                     placeholder="Confirme sua senha"
+                    required={true}
                     type="password"
+                    value=""
                   />
                   <Row
                     reverse={false}
@@ -1067,24 +1163,35 @@ ShallowWrapper {
                   >
                     Para validar seu convite é preciso cadastrar os seguintes dados:
                   </Title>,
-                  <Form>
+                  <Form
+                    onSubmit={[Function]}
+                  >
                     <Input
                       autoCorrect="off"
                       name="email"
+                      onChange={[Function]}
                       placeholder="Digite seu e-mail"
+                      required={true}
                       type="email"
+                      value=""
                     />
                     <Input
                       autoComplete="off"
-                      name="password"
+                      name="password1"
+                      onChange={[Function]}
                       placeholder="Escolha sua senha"
+                      required={true}
                       type="password"
+                      value=""
                     />
                     <Input
                       autoComplete="off"
-                      name="password"
+                      name="password2"
+                      onChange={[Function]}
                       placeholder="Confirme sua senha"
+                      required={true}
                       type="password"
+                      value=""
                     />
                     <Row
                       reverse={false}
@@ -1148,20 +1255,29 @@ ShallowWrapper {
                       <Input
                         autoCorrect="off"
                         name="email"
+                        onChange={[Function]}
                         placeholder="Digite seu e-mail"
+                        required={true}
                         type="email"
+                        value=""
                       />,
                       <Input
                         autoComplete="off"
-                        name="password"
+                        name="password1"
+                        onChange={[Function]}
                         placeholder="Escolha sua senha"
+                        required={true}
                         type="password"
+                        value=""
                       />,
                       <Input
                         autoComplete="off"
-                        name="password"
+                        name="password2"
+                        onChange={[Function]}
                         placeholder="Confirme sua senha"
+                        required={true}
                         type="password"
+                        value=""
                       />,
                       <Row
                         reverse={false}
@@ -1197,6 +1313,7 @@ ShallowWrapper {
                         </Col>
                       </Row>,
                     ],
+                    "onSubmit": [Function],
                   },
                   "ref": null,
                   "rendered": Array [
@@ -1207,8 +1324,11 @@ ShallowWrapper {
                       "props": Object {
                         "autoCorrect": "off",
                         "name": "email",
+                        "onChange": [Function],
                         "placeholder": "Digite seu e-mail",
+                        "required": true,
                         "type": "email",
+                        "value": "",
                       },
                       "ref": null,
                       "rendered": null,
@@ -1220,9 +1340,12 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "autoComplete": "off",
-                        "name": "password",
+                        "name": "password1",
+                        "onChange": [Function],
                         "placeholder": "Escolha sua senha",
+                        "required": true,
                         "type": "password",
+                        "value": "",
                       },
                       "ref": null,
                       "rendered": null,
@@ -1234,9 +1357,12 @@ ShallowWrapper {
                       "nodeType": "function",
                       "props": Object {
                         "autoComplete": "off",
-                        "name": "password",
+                        "name": "password2",
+                        "onChange": [Function],
                         "placeholder": "Confirme sua senha",
+                        "required": true,
                         "type": "password",
+                        "value": "",
                       },
                       "ref": null,
                       "rendered": null,
