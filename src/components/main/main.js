@@ -22,13 +22,13 @@ const Main = () => (
               name="email"
               type="email"
               placeholder="Digite seu e-mail"
-              autocorrect="off"
+              autoCorrect="off"
             />
             <Input
               name="password"
               type="password"
               placeholder="Digite sua senha"
-              autocomplete="off"
+              autoComplete="off"
             />
             <Row>
               <Col size={6}>
