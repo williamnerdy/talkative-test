@@ -8,3 +8,7 @@ body {
   font-family: 'CircularStd', sans-serif;
   color: #9b9b9b;
 }
+
+img {
+  max-width: 100%;
+}
