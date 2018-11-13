@@ -8,6 +8,7 @@ import Form from '../form';
 import Input from '../input';
 import Button from '../button';
 import Icon from '../icon';
+import Link from '../link';
 
 const Main = () => (
   <Container>
@@ -44,6 +45,8 @@ const Main = () => (
                 </Button>
               </Col>
             </Row>
+            <br />
+            <Link to="//example.com">Esqueci minha senha</Link>
           </Form>
         </Card>
       </Col>
